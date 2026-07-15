@@ -1,0 +1,21 @@
+# Calendario propio del organizador. Al ser suyo, lo libera bajo CC0-1.0
+# (dedicación al dominio público, la licencia más permisiva de la allowlist),
+# así que pasa la puerta de licencia por la Vía 1 sin necesitar permiso escrito.
+id: community-builders-events
+type: ics
+enabled: true
+
+timezone: Europe/Madrid
+
+license: CC0-1.0
+
+config:
+  url: https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics
+
+attribution:
+  name: Community Builders Events
+  url: https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com
+
+defaults:
+  languages: [es]
+  attendanceMode: online
