@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T10:56:21.237Z",
+  "generatedAt": "2026-07-15T14:50:29.143Z",
   "totals": {
     "sources": 2,
     "sourcesFailed": 0,
@@ -12,6 +12,8 @@
     {
       "id": "community-builders-events",
       "type": "ics",
+      "name": "Community Builders Events",
+      "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
       "ok": true,
       "events": 28,
       "errors": [],
@@ -20,6 +22,8 @@
     {
       "id": "eventos-tech-granada",
       "type": "ics",
+      "name": "Eventos Tech en Granada",
+      "url": "https://calendar.google.com/calendar/embed?src=c1e9aa03275fcf80c962f69f120e0238e097b5baabbd9ebb75471fd072f176bf%40group.calendar.google.com",
       "ok": true,
       "events": 0,
       "errors": [],
