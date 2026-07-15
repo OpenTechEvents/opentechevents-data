@@ -1,0 +1,26 @@
+# ⚠️ FUENTE DE PRUEBA — PENDIENTE DE CONFIRMACIÓN DE LICENCIA
+#
+# Primer ejemplo real, usado para validar el pipeline de punta a punta contra un .ics
+# público (241 eventos, horas en UTC → convertidas a Europe/Madrid, 0 inválidos).
+#
+# `enabled: false` a propósito: NO se publica todavía. La puerta de licencia solo se
+# aplica a las fuentes habilitadas, así que una fuente puede vivir aquí mientras se
+# confirma su licencia. Antes de poner `enabled: true` hay que rellenar UNA de las dos vías:
+#   - `license:` con un id de la allowlist (CC0-1.0 / CC-BY-4.0) verificable en origen, o
+#   - el bloque `permission:` enlazando el issue donde el organizador concede el permiso.
+# Este calendario de Google no declara licencia, así que hoy no cumple ninguna de las dos.
+id: eventos-tech-granada
+type: ics
+enabled: false
+
+timezone: Europe/Madrid
+
+config:
+  url: https://calendar.google.com/calendar/ical/c1e9aa03275fcf80c962f69f120e0238e097b5baabbd9ebb75471fd072f176bf%40group.calendar.google.com/public/basic.ics
+
+attribution:
+  name: Eventos Tech en Granada
+  url: https://calendar.google.com/calendar/embed?src=c1e9aa03275fcf80c962f69f120e0238e097b5baabbd9ebb75471fd072f176bf%40group.calendar.google.com
+
+defaults:
+  languages: [es]

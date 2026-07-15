@@ -1,0 +1,46 @@
+{
+  "specVersion": "0.1.0",
+  "title": "Upstream Aggregator",
+  "url": "https://upstream.example",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "events": [
+    {
+      "id": "https://origin.example/events.ics#meetup-1",
+      "name": "Charla con procedencia original",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-09-10T19:00:00",
+      "endDate": "2026-09-10T21:00:00",
+      "location": { "venue": "Campus Madrid" },
+      "attendanceMode": "in-person",
+      "source": {
+        "name": "Rust Origin",
+        "url": "https://origin.example",
+        "license": "CC-BY-4.0",
+        "retrievedAt": "2026-06-30T00:00:00Z"
+      }
+    },
+    {
+      "id": "https://upstream.example/feed#first-party",
+      "name": "Evento propio del feed, sin source",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-09-12T18:00:00"
+    },
+    {
+      "id": "https://upstream.example/feed#cc0-event",
+      "name": "Evento en dominio publico",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-09-15T17:00:00",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://upstream.example/feed#declared-mode",
+      "name": "Evento con modalidad declarada",
+      "timezone": "America/Mexico_City",
+      "startDate": "2026-09-18T19:00:00",
+      "attendanceMode": "online",
+      "location": { "onlineUrl": "https://meet.example/x" }
+    }
+  ]
+}

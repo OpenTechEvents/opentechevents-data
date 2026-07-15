@@ -1,0 +1,131 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm test
+
+  # The dry-run is what makes registering a source usable: whoever proposes one SEES, in
+  # their own PR, how many events it would bring in and what they look like — before anyone
+  # merges anything.
+  dry-run:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - id: changed
+        name: Which sources did this PR touch?
+        run: |
+          git diff --name-only --diff-filter=d \
+            "origin/${{ github.base_ref }}...HEAD" -- sources/ \
+            | grep -E '\.ya?ml$' \
+            | xargs -r -n1 basename \
+            | sed -E 's/\.ya?ml$//' > changed.txt || true
+          echo "ids=$(paste -sd, - < changed.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Ingest each changed source, writing nothing
+        if: steps.changed.outputs.ids != ''
+        run: |
+          {
+            echo "## Dry-run de las fuentes de este PR"
+            echo
+            while read -r id; do
+              [ -z "$id" ] && continue
+              echo "### \`$id\`"
+              echo
+              echo '```'
+              # --dry-run writes no files and takes no snapshots: a PR preview must never be
+              # able to poison the published data with whatever the proposed source returned.
+              npm run --silent dry-run -- --source "$id" 2>&1 \
+                | node -e '
+                    let raw = "";
+                    process.stdin.on("data", (c) => (raw += c));
+                    process.stdin.on("end", () => {
+                      try {
+                        const { feed, report } = JSON.parse(raw);
+                        const source = report.sources[0] ?? {};
+                        console.log(`Eventos que entrarían: ${feed.events.length}`);
+                        console.log(`Descartados: ${source.errors?.length ?? 0}`);
+                        console.log(`Avisos: ${source.warnings?.length ?? 0}`);
+                        console.log("");
+                        for (const e of feed.events.slice(0, 10)) {
+                          const mode = e.attendanceMode ?? "modalidad desconocida";
+                          console.log(`  ${e.startDate} — ${e.name} (${mode})`);
+                        }
+                        if (feed.events.length > 10) {
+                          console.log(`  … y ${feed.events.length - 10} más`);
+                        }
+                        for (const issue of [...(source.errors ?? []), ...(source.warnings ?? [])]) {
+                          console.log(`\n[${issue.code}] ${issue.message}`);
+                        }
+                      } catch {
+                        console.log(raw);
+                      }
+                    });
+                  '
+              echo '```'
+              echo
+            done < changed.txt
+          } > comment.md
+
+      - name: Comment the preview on the PR
+        if: steps.changed.outputs.ids != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('node:fs');
+            const body = fs.readFileSync('comment.md', 'utf8');
+            const marker = '## Dry-run de las fuentes de este PR';
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(
+              (c) => c.user.type === 'Bot' && c.body.startsWith(marker),
+            );
+
+            // Update in place rather than pile up a new comment on every push.
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }

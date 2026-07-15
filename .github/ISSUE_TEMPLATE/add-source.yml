@@ -1,0 +1,84 @@
+name: Añadir una fuente (.ics)
+description: Registra un calendario iCalendar público para que sus eventos entren al feed.
+title: 'Fuente: <nombre de la comunidad>'
+labels: [source]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por proponer una fuente. Un bot leerá este issue y abrirá un PR con el
+        fichero `sources/<id>.yml`; una persona lo revisará antes de mergear.
+
+        El PR hará un *dry-run*: verás cuántos eventos entrarían y con qué pinta, antes de nada.
+  - type: input
+    id: id
+    attributes:
+      label: Identificador (slug)
+      description: Minúsculas, guiones. Será el nombre del fichero. Ej. `rust-madrid`.
+      placeholder: rust-madrid
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL del .ics
+      description: El enlace público al calendario iCalendar.
+      placeholder: https://rustmadrid.example/events.ics
+    validations:
+      required: true
+  - type: input
+    id: timezone
+    attributes:
+      label: Zona horaria (IANA)
+      description: >-
+        En qué zona ocurren los eventos. Obligatoria: iCalendar a menudo no la trae y no la
+        adivinamos. Ej. `Europe/Madrid`, `America/Mexico_City`.
+      placeholder: Europe/Madrid
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Nombre de la comunidad
+      placeholder: Rust Madrid
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Web de la comunidad
+      placeholder: https://rustmadrid.example
+  - type: dropdown
+    id: attendance
+    attributes:
+      label: Modalidad por defecto
+      description: >-
+        Solo si TODOS los eventos de esta fuente son de la misma modalidad. Si dudas, déjalo
+        en "no forzar": el sistema la infiere cuando la señal es inequívoca y la omite cuando no.
+      options:
+        - 'no forzar (recomendado)'
+        - in-person
+        - online
+        - hybrid
+      default: 0
+  - type: dropdown
+    id: license
+    attributes:
+      label: ¿Bajo qué derechos podemos republicar estos datos?
+      options:
+        - 'Soy organizador/a y doy permiso para publicarlos como open data (CC-BY-4.0)'
+        - 'La fuente ya tiene licencia CC-BY-4.0'
+        - 'La fuente ya tiene licencia CC0-1.0'
+    validations:
+      required: true
+  - type: checkboxes
+    id: license-confirm
+    attributes:
+      label: Confirmación de licencia (obligatoria)
+      description: >-
+        Sin esto no se puede publicar. Que un `.ics` sea accesible no lo hace reutilizable.
+      options:
+        - label: >-
+            Declaro que estos datos pueden publicarse como open data bajo CC-BY-4.0, porque soy
+            organizador/a y doy permiso, o porque la fuente ya lo permite con una licencia abierta.
+          required: true

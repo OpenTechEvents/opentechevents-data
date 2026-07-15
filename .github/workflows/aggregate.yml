@@ -1,0 +1,75 @@
+name: Aggregate
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # daily, 05:00 UTC
+  workflow_dispatch: # manual run
+  push:
+    branches: [main]
+    paths: ['sources/**'] # a new source is ingested immediately, not tomorrow
+
+# The bot writes to the `data` branch and never to `main`, so the human history is not
+# buried under hundreds of bot commits, and whoever only wants the dataset can clone one
+# branch without dragging the toolchain along.
+permissions:
+  contents: write
+
+concurrency:
+  group: aggregate
+  cancel-in-progress: false
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check out the data branch into out/
+        run: |
+          git fetch origin data --depth=1 2>/dev/null \
+            && git worktree add out data \
+            || {
+              echo "no data branch yet — creating it"
+              git worktree add --detach out
+              git -C out checkout --orphan data
+              git -C out rm -rf . >/dev/null 2>&1 || true
+            }
+          # GitHub Pages must not run these files through Jekyll.
+          touch out/.nojekyll
+
+      # The previous run's raw snapshots live in out/raw/, which is what lets a source that
+      # is down today be served from the last good data instead of vanishing from the feed.
+      - name: Aggregate
+        run: npm run aggregate -- --out out
+
+      - name: Commit the output
+        working-directory: out
+        run: |
+          git config user.name "opentechevents-bot"
+          git config user.email "bot@opentechevents.org"
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+
+          # Every run leaves an auditable diff: which event appeared, which changed, which
+          # went away. Git history is the proof that an event existed.
+          upcoming=$(node -e "console.log(require('./report.json').totals.upcoming)")
+          git commit -m "data: ${upcoming} upcoming events ($(date -u +%Y-%m-%d))"
+          git push origin data
+
+      - name: Fail the run if any source failed outright
+        run: |
+          failed=$(node -e "console.log(require('./out/report.json').totals.sourcesFailed)")
+          if [ "$failed" -gt 0 ]; then
+            echo "::warning::${failed} source(s) could not be ingested — see report.json"
+          fi
