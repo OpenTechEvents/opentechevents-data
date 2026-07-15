@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenTechEvents — data feed</title>
+  <meta name="description" content="The aggregated, open-licensed feed of tech community events, in OTE Spec. Subscribe or build on it.">
+  <link rel="alternate" type="application/json" title="OpenTechEvents feed (OTE)" href="/feed.json">
+  <link rel="alternate" type="text/calendar" title="OpenTechEvents calendar" href="/feed.ics">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1b1f24;
+      --muted: #5b6570;
+      --border: #e4e8ec;
+      --card: #f7f9fb;
+      --accent: #0f766e;
+      --accent-fg: #ffffff;
+      --code-bg: #eef2f5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1116;
+        --fg: #e6edf3;
+        --muted: #9aa5b1;
+        --border: #262c34;
+        --card: #161b22;
+        --accent: #2dd4bf;
+        --accent-fg: #05201c;
+        --code-bg: #1b222b;
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: #0e1116; --fg: #e6edf3; --muted: #9aa5b1; --border: #262c34;
+      --card: #161b22; --accent: #2dd4bf; --accent-fg: #05201c; --code-bg: #1b222b;
+    }
+    :root[data-theme="light"] {
+      --bg: #ffffff; --fg: #1b1f24; --muted: #5b6570; --border: #e4e8ec;
+      --card: #f7f9fb; --accent: #0f766e; --accent-fg: #ffffff; --code-bg: #eef2f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 2.5rem; }
+    .brand { display: flex; align-items: center; gap: .55rem; font-weight: 700; letter-spacing: -.01em; }
+    .brand .dot { width: .7rem; height: .7rem; border-radius: 50%; background: var(--accent); display: inline-block; }
+    .brand a { color: inherit; text-decoration: none; }
+    .langtoggle { display: flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+    .langtoggle button {
+      font: inherit; font-size: .8rem; font-weight: 600; padding: .25rem .7rem; border: 0; cursor: pointer;
+      background: transparent; color: var(--muted);
+    }
+    .langtoggle button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+    h1 { font-size: 1.75rem; line-height: 1.25; letter-spacing: -.02em; margin: 0 0 .75rem; }
+    .lead { color: var(--muted); font-size: 1.05rem; margin: 0 0 2rem; }
+    .stats {
+      display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: baseline;
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: .9rem 1.1rem; margin: 0 0 2.5rem; font-size: .95rem; color: var(--muted);
+    }
+    .stats strong { color: var(--fg); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+    .stats .sep { opacity: .5; }
+    h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 2.5rem 0 .9rem; }
+    .feeds { display: grid; gap: .6rem; }
+    .feed {
+      display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .3rem 1rem;
+      border: 1px solid var(--border); border-radius: 12px; padding: .85rem 1.05rem; background: var(--card);
+    }
+    .feed .name { font-weight: 600; }
+    .feed .desc { grid-column: 1 / -1; color: var(--muted); font-size: .88rem; }
+    .feed a.url {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .82rem;
+      color: var(--accent); text-decoration: none; word-break: break-all; text-align: right;
+    }
+    .feed a.url:hover { text-decoration: underline; }
+    .badge { display: inline-block; font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
+      background: var(--accent); color: var(--accent-fg); border-radius: 999px; padding: .1rem .5rem; margin-left: .5rem; vertical-align: middle; }
+    p.note { color: var(--muted); font-size: .92rem; }
+    a { color: var(--accent); }
+    code { background: var(--code-bg); padding: .1rem .35rem; border-radius: 5px; font-size: .85em; }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; }
+    footer a { text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    footer .links { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-bottom: 1rem; }
+    [data-lang="en"] [lang="es"], [data-lang="es"] [lang="en"] { display: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><span class="dot"></span><a href="https://opentechevents.org/">OpenTechEvents</a></div>
+      <div class="langtoggle" role="group" aria-label="Language">
+        <button type="button" data-setlang="en" aria-pressed="true">EN</button>
+        <button type="button" data-setlang="es" aria-pressed="false">ES</button>
+      </div>
+    </header>
+
+    <main>
+      <h1>
+        <span lang="en">The tech-events data feed</span>
+        <span lang="es">El feed de datos de eventos tech</span>
+      </h1>
+      <p class="lead">
+        <span lang="en">This domain serves the <strong>aggregated, open-licensed feed of tech community events</strong> — meetups, user groups and conferences — normalised to <a href="https://github.com/OpenTechEvents/opentechevents-spec">OTE Spec</a>. Subscribe to it in your calendar, or build on it.</span>
+        <span lang="es">Este dominio sirve el <strong>feed agregado y con licencia abierta de eventos de comunidades tech</strong> — meetups, grupos de usuarios y conferencias — normalizado a <a href="https://github.com/OpenTechEvents/opentechevents-spec">OTE Spec</a>. Suscríbelo en tu calendario, o construye encima.</span>
+      </p>
+
+      <div class="stats" id="stats" hidden>
+        <span><strong id="s-upcoming">—</strong>
+          <span lang="en">upcoming events</span><span lang="es">próximos eventos</span></span>
+        <span class="sep">·</span>
+        <span><strong id="s-sources">—</strong>
+          <span lang="en">sources</span><span lang="es">fuentes</span></span>
+        <span class="sep">·</span>
+        <span><span lang="en">updated</span><span lang="es">actualizado</span> <span id="s-updated">—</span></span>
+      </div>
+
+      <h2><span lang="en">Feeds</span><span lang="es">Feeds</span></h2>
+      <div class="feeds">
+        <div class="feed">
+          <span class="name">feed.ics <span class="badge">ics</span></span>
+          <a class="url" href="/feed.ics">/feed.ics</a>
+          <span class="desc">
+            <span lang="en">iCalendar. Subscribe from Google, Apple or Outlook Calendar (as a subscribed URL, not a one-off import).</span>
+            <span lang="es">iCalendar. Suscríbelo desde Google, Apple u Outlook Calendar (como URL suscrita, no importación puntual).</span>
+          </span>
+        </div>
+        <div class="feed">
+          <span class="name">feed.json <span class="badge">ote</span></span>
+          <a class="url" href="/feed.json">/feed.json</a>
+          <span class="desc">
+            <span lang="en"><strong>Canonical.</strong> The OTE feed everything else is derived from. Start here if you integrate at the data level.</span>
+            <span lang="es"><strong>Canónico.</strong> El feed OTE del que se deriva todo lo demás. Empieza aquí si integras a nivel de datos.</span>
+          </span>
+        </div>
+        <div class="feed">
+          <span class="name">report.json</span>
+          <a class="url" href="/report.json">/report.json</a>
+          <span class="desc">
+            <span lang="en">Ingest health per source: events ok, warnings, errors.</span>
+            <span lang="es">Salud de la ingesta por fuente: eventos ok, avisos, errores.</span>
+          </span>
+        </div>
+        <div class="feed">
+          <span class="name">archive/YYYY.json</span>
+          <a class="url" href="/archive/">/archive/</a>
+          <span class="desc">
+            <span lang="en">Past events, by year. Historical dataset.</span>
+            <span lang="es">Eventos pasados, por año. Dataset histórico.</span>
+          </span>
+        </div>
+      </div>
+
+      <h2><span lang="en">License</span><span lang="es">Licencia</span></h2>
+      <p class="note">
+        <span lang="en">The aggregated feed is <strong>CC-BY-4.0</strong>. Attribute each event to whoever its <code>source</code> field names. Only events with a clear open license or explicit organiser permission enter the feed.</span>
+        <span lang="es">El feed agregado es <strong>CC-BY-4.0</strong>. Atribuye cada evento a quien indique su campo <code>source</code>. Solo entran eventos con licencia abierta clara o permiso explícito del organizador.</span>
+      </p>
+    </main>
+
+    <footer>
+      <div class="links">
+        <a href="https://opentechevents.org/"><span lang="en">The project &amp; tools ↗</span><span lang="es">El proyecto y las herramientas ↗</span></a>
+        <a href="https://github.com/OpenTechEvents/opentechevents-data"><span lang="en">Repo &amp; docs ↗</span><span lang="es">Repo y docs ↗</span></a>
+        <a href="https://github.com/OpenTechEvents/opentechevents-spec"><span lang="en">OTE Spec ↗</span><span lang="es">OTE Spec ↗</span></a>
+      </div>
+      <p style="margin:0">
+        <span lang="en">Part of <a href="https://opentechevents.org/">OpenTechEvents</a>. This is the data endpoint; the project and its tools ecosystem live on the main site.</span>
+        <span lang="es">Parte de <a href="https://opentechevents.org/">OpenTechEvents</a>. Esto es el endpoint de datos; el proyecto y su ecosistema de herramientas viven en la web principal.</span>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      // Language: persisted choice, else browser preference, else English.
+      var stored = null;
+      try { stored = localStorage.getItem('ote-lang'); } catch (e) {}
+      var lang = stored || ((navigator.language || 'en').slice(0, 2) === 'es' ? 'es' : 'en');
+      setLang(lang);
+
+      function setLang(l) {
+        root.setAttribute('data-lang', l);
+        root.setAttribute('lang', l);
+        document.querySelectorAll('[data-setlang]').forEach(function (b) {
+          b.setAttribute('aria-pressed', String(b.getAttribute('data-setlang') === l));
+        });
+        try { localStorage.setItem('ote-lang', l); } catch (e) {}
+      }
+      document.querySelectorAll('[data-setlang]').forEach(function (b) {
+        b.addEventListener('click', function () { setLang(b.getAttribute('data-setlang')); });
+      });
+
+      // Live counts from the same-origin report — no hardcoded numbers.
+      fetch('/report.json', { cache: 'no-store' }).then(function (r) {
+        return r.ok ? r.json() : null;
+      }).then(function (rep) {
+        if (!rep || !rep.totals) return;
+        document.getElementById('s-upcoming').textContent = rep.totals.upcoming;
+        document.getElementById('s-sources').textContent = rep.totals.sources;
+        if (rep.generatedAt) {
+          var d = new Date(rep.generatedAt);
+          document.getElementById('s-updated').textContent = isNaN(d) ? '—' : d.toISOString().slice(0, 10);
+        }
+        document.getElementById('stats').hidden = false;
+      }).catch(function () {});
+    })();
+  </script>
+</body>
+</html>
