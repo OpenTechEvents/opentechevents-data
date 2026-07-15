@@ -46,9 +46,11 @@ El objetivo es que **comunidades y directorios existentes se sumen y expliciten 
 datos**, para que más organizaciones —directorios, apps, newsletters, calendarios— puedan usarlos con
 garantías. Cuantas más fuentes se declaran abiertas, más útil es el común para todos.
 
-> ⚠️ **Estamos en fase inicial.** El feed todavía se está poblando con las primeras fuentes reales.
-> Buscamos feedback de organizadores y de plataformas: qué falla, qué falta, qué haría esto útil para
-> ti. [Abre un issue](../../issues/new/choose) o pásate por las [discusiones](../../discussions).
+> ⚠️ **Estamos en fase inicial.** El feed **ya está en vivo y es suscribible**
+> (`https://data.opentechevents.org/feed.ics`), pero se está poblando con las primeras fuentes reales:
+> al principio verás pocos eventos. Buscamos feedback de organizadores y de plataformas: qué falla, qué
+> falta, qué haría esto útil para ti. [Abre un issue](../../issues/new/choose) o pásate por las
+> [discusiones](../../discussions).
 
 ---
 
