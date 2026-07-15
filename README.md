@@ -1,207 +1,137 @@
-# OpenTechEvents — datos
+# OpenTechEvents — data
 
-Una **capa de interoperabilidad y licencia para eventos de comunidades tech**: unifica calendarios
-dispersos en un feed común, con la licencia de cada dato explícita, para que otros puedan reutilizarlos.
+An **interoperability and licensing layer for tech community events**: it unifies scattered calendars into a common feed, with each datum's license made explicit, so others can reuse them.
 
-Este repositorio recoge los calendarios de comunidades tecnológicas (meetups, grupos de usuarios,
-conferencias) y directorios ya existentes, los unifica y los publica de dos maneras
-complementarias, con la procedencia y la licencia de cada evento explícitas:
+This repository collects the calendars of tech communities (meetups, user groups, conferences) and existing directories, unifies them, and publishes them in two complementary ways, with the provenance and license of each event made explicit:
 
-- **En formatos estándar que la gente ya usa** — iCalendar (`.ics`), RSS/Atom, JSON Feed. Suscribes el
-  feed en el calendario o el lector que ya tienes, sin aprender nada nuevo.
-- **En [OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec)**, un formato nuevo diseñado
-  específicamente para las necesidades de las comunidades técnicas. Los formatos estándar se quedan
-  cortos para esto: modela comunidad, temática, tipo de evento (conferencia/meetup), modalidad,
-  ubicación, *call for speakers*… con la granularidad que hace falta para construir herramientas
-  encima.
+- **In standard formats people already use** — iCalendar (`.ics`), RSS/Atom, JSON Feed. Subscribe to the feed in the calendar or reader you already have, without learning anything new.
+- **In [OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec)**, a new format designed specifically for the needs of technical communities. Standard formats fall short here: it models community, topic, event type (conference/meetup), attendance mode, location, *call for speakers*… with the granularity needed to build tools on top.
 
-Ese es el fin del estándar: **habilitar a la comunidad a crear herramientas** que dejen a cada persona
-definir y suscribirse a exactamente lo que le interesa — por comunidad, por temática, por tipo de
-evento, por ubicación; descubrir eventos nuevos; o montar feeds personalizados (p. ej. solo *call for
-speakers* de una temática). El común de datos abiertos es lo que hace posible todo eso.
+That is the point of the standard: **to enable the community to build tools** that let each person define and subscribe to exactly what they care about — by community, by topic, by event type, by location; discover new events; or assemble custom feeds (e.g. only *call for speakers* on a topic). The open-data commons is what makes all of that possible.
 
-Es la pieza de datos del proyecto **[OpenTechEvents](https://opentechevents.org/)**. Aquí vive la
-maquinaria y los datos; en la web está el proyecto y su contexto.
+It is the data piece of the **[OpenTechEvents](https://opentechevents.org/)** project. The machinery and the data live here; the project and its context live on the website.
 
-## Qué es esto (y qué no)
+## What this is (and isn't)
 
-**No es otro directorio de eventos con su buscador, ni pretende competir con los que ya existen**
-([recopilación de calendarios y directorios](https://github.com/ComBuildersES/awesome-community-builders#calendarios)).
-Al contrario: quiere ser el **habilitador de interoperabilidad que les ayude a todos** a construir la
-mejor herramienta e interfaz para sus usuarios.
+**It is not yet another event directory with its own search, nor does it aim to compete with the ones that already exist** ([a roundup of calendars and directories](https://github.com/ComBuildersES/awesome-community-builders#calendarios)). On the contrary: it wants to be the **interoperability enabler that helps them all** build the best tool and interface for their users.
 
-Esto resuelve el problema de **antes** de cualquier directorio: que los datos de eventos están
-dispersos en mil calendarios y plataformas, en formatos distintos y **sin una licencia clara** que diga
-si se pueden reutilizar. Resuelto eso —una vez, en común— cada directorio, app o calendario puede
-dedicarse a lo suyo: la mejor experiencia para su gente, sin reinventar la fontanería de datos.
+This solves the problem *before* any directory: that event data is scattered across a thousand calendars and platforms, in different formats, and **with no clear license** stating whether it can be reused. Solve that — once, in common — and every directory, app, or calendar can focus on its own thing: the best experience for its people, without reinventing the data plumbing.
 
-Lo que aporta:
+What it brings:
 
-- **Interoperabilidad** — todo evento en un mismo formato ([OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec)),
-  venga de donde venga. Un consumidor integra una vez, no una por plataforma.
-- **Garantía de licencia** — cada evento lleva explícito de dónde sale (`source`) y bajo qué licencia
-  se puede reutilizar. Nada entra "porque está en internet" (ver [Licencias](#licencias)).
+- **Interoperability** — every event in the same format ([OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec)), wherever it comes from. A consumer integrates once, not once per platform.
+- **License guarantee** — every event states explicitly where it comes from (`source`) and under what license it can be reused. Nothing enters "because it's on the internet" (see [Licensing](#licensing)).
 
-El objetivo es que **comunidades y directorios existentes se sumen y expliciten la licencia de sus
-datos**, para que más organizaciones —directorios, apps, newsletters, calendarios— puedan usarlos con
-garantías. Cuantas más fuentes se declaran abiertas, más útil es el común para todos.
+The goal is for **existing communities and directories to join and make the license of their data explicit**, so that more organisations — directories, apps, newsletters, calendars — can use it with guarantees. The more sources declare themselves open, the more useful the commons is for everyone.
 
-> ⚠️ **Estamos en fase inicial.** El feed **ya está en vivo y es suscribible**
-> (`https://data.opentechevents.org/feed.ics`), pero se está poblando con las primeras fuentes reales:
-> al principio verás pocos eventos. Buscamos feedback de organizadores y de plataformas: qué falla, qué
-> falta, qué haría esto útil para ti. [Abre un issue](../../issues/new/choose) o pásate por las
-> [discusiones](../../discussions).
+> ⚠️ **We are in an early phase.** The feed is **already live and subscribable** (`https://data.opentechevents.org/feed.ics`), but it is being populated with the first real sources: at first you will see few events. We are looking for feedback from organisers and platforms: what breaks, what is missing, what would make this useful for you. [Open an issue](../../issues/new/choose) or drop by the [discussions](../../discussions).
 
 ---
 
-## Para asistentes (seguir los eventos)
+## For platforms and developers (consuming the data)
 
-**¿Solo quieres enterarte de los eventos tech y no perdértelos?** Hoy la vía más directa es suscribir
-el calendario una vez: los eventos de todas las comunidades registradas aparecen —y se actualizan
-solos— en tu app de calendario habitual.
+Do you have a directory, an app, a bot, or a newsletter and want to feed on these events? The feed is published in standard formats under stable URLs:
 
-1. Copia la URL del calendario: **`https://data.opentechevents.org/feed.ics`**
-2. Añádela como calendario suscrito (no como importación puntual) en tu app:
-   - **Google Calendar**: *Otros calendarios* → *Suscribirse a un calendario* → *Desde URL*.
-   - **Apple Calendar**: *Archivo* → *Nueva suscripción de calendario*.
-   - **Outlook**: *Añadir calendario* → *Suscribirse desde la web*.
-
-Así ves todo en un sitio, con las actualizaciones y cancelaciones que publiquen las comunidades. Si
-prefieres un lector de feeds, RSS/JSON Feed llegan en la [Fase 3](#roadmap).
-
-**Lo que viene: apps que filtran por lo que te importa.** El calendario te vuelca *todos* los eventos;
-el fin de OTE Spec es que existan herramientas que te dejen suscribirte a exactamente lo que te
-interesa —por temática, ciudad, modalidad o tipo de evento— y avisarte (email, Telegram, webhook).
-Ese ecosistema está arrancando: **de momento no hay todavía apps de terceros** que consuman el feed,
-pero las que se vayan construyendo (lectores por temática, notificaciones, widgets…) se listan en
-**[opentechevents.org/#tools](https://opentechevents.org/#tools)**. ¿Echas en falta una? Propónla ahí.
-
-> El feed se está poblando con las primeras fuentes; al principio verás pocos eventos. Cuantas más
-> comunidades se registren, más completo será — anima a las tuyas a [darse de alta](#para-organizadores-de-eventos).
-
----
-
-## Para organizadores de eventos
-
-**¿Organizas un meetup, grupo o conferencia y quieres que tus eventos aparezcan?**
-
-Si tu comunidad ya publica un calendario **iCalendar (`.ics`)** —Meetup, Google Calendar, Luma y casi
-cualquier herramienta exportan uno—, registrarlo es un formulario:
-
-1. Abre el **[formulario de alta de fuente](../../issues/new/choose)**.
-2. Indica la URL de tu `.ics`, su zona horaria y con qué nombre/web quieres que se te atribuya.
-3. Declara que los datos pueden republicarse como open data (eres organizador/a y das permiso, o tu
-   calendario ya tiene una licencia abierta). **Este paso es obligatorio**: que un `.ics` sea público
-   no lo hace reutilizable.
-
-Un bot leerá el issue y abrirá un PR. Antes de aprobarlo verás un *dry-run*: **cuántos eventos
-entrarían y con qué pinta**. Una persona lo revisa y lo integra.
-
-A partir de ahí, tus eventos entran solos en cada actualización diaria — una fuente registrada son
-eventos para siempre, sin trabajo manual.
-
-**¿Tu comunidad no publica un `.ics`?** De momento el `.ics` es el único formato soportado (ver
-[Roadmap](#roadmap)). Si tienes otra fuente (una API, JSON-LD en tu web, etc.), cuéntanoslo en un
-issue: nos ayuda a priorizar qué importadores construir.
-
-### Qué controlas tú
-
-- **Atribución**: cada evento tuyo enlaza a tu comunidad en su campo `source`.
-- **Modalidad** (presencial/online/híbrido): la declaras tú en el alta; no la adivinamos.
-- **Cancelaciones**: si marcas un evento `CANCELLED` en tu calendario, los suscriptores lo ven
-  cancelado en el suyo.
-- **Salir**: si retiras tu calendario o pides la baja, tus eventos desaparecen del feed.
-
----
-
-## Para plataformas y desarrolladores (consumir los datos)
-
-¿Tienes un directorio, una app, un bot o una newsletter y quieres nutrirte de estos eventos? El feed
-se publica en formatos estándar bajo URLs estables:
-
-| Feed | Formato | Para qué |
+| Feed | Format | For what |
 | --- | --- | --- |
-| `feed.json` | [OTE Feed](https://github.com/OpenTechEvents/opentechevents-spec) (JSON) | **Canónico.** Todo lo demás se deriva de aquí. Empieza por este. |
-| `feed.ics` | iCalendar | Suscripción directa en Google/Apple/Outlook Calendar. |
-| `archive/YYYY.json` | OTE Feed | Eventos ya pasados, por año. Dataset histórico. Índice navegable en [`archive/`](https://data.opentechevents.org/archive/). |
-| `archive/index.json` | JSON | Manifest de años disponibles (`{ "years": [...] }`). Lo consume el índice de archivo. |
-| `report.json` | JSON | Salud de la ingesta por fuente: eventos ok, avisos, errores. |
+| `feed.json` | [OTE Feed](https://github.com/OpenTechEvents/opentechevents-spec) (JSON) | **Canonical.** Everything else derives from here. Start with this one. |
+| `feed.ics` | iCalendar | Direct subscription in Google/Apple/Outlook Calendar. |
+| `archive/YYYY.json` | OTE Feed | Past events, by year. Historical dataset. Browsable index at [`archive/`](https://data.opentechevents.org/archive/). |
+| `archive/index.json` | JSON | Manifest of available years (`{ "years": [...] }`). Consumed by the archive index. |
+| `report.json` | JSON | Ingestion health per source: events ok, warnings, errors. |
 
-> `feed.xml` (RSS) y `feed.jsonfeed.json` (JSON Feed) llegan en la [Fase 3](#roadmap).
+> `feed.xml` (RSS) and `feed.jsonfeed.json` (JSON Feed) are coming in [Phase 3](#roadmap).
 
-**Por qué empezar por `feed.json`**: es la única fuente de verdad; el `.ics` y el resto se generan a
-partir de él. Si integras a nivel de datos, integra contra el JSON y el JSON Schema publicado
-([`@opentechevents/schema`](https://www.npmjs.com/package/@opentechevents/schema)); así tu integración
-no depende de las rarezas de ningún formato de calendario.
+**Why start with `feed.json`**: it is the single source of truth; the `.ics` and the rest are generated from it. If you integrate at the data level, integrate against the JSON and the published JSON Schema ([`@opentechevents/schema`](https://www.npmjs.com/package/@opentechevents/schema)); that way your integration does not depend on the quirks of any calendar format.
 
-**Estabilidad de URLs**: los feeds se sirven bajo un dominio propio (`data.opentechevents.org`) para
-que las URLs sobrevivan a cualquier reorganización del repo. La URL del `.ics` es para siempre — la
-gente la suscribe en su calendario y no vuelve a tocarla.
+**URL stability**: the feeds are served under their own domain (`data.opentechevents.org`) so the URLs survive any reorganisation of the repo. The `.ics` URL is forever — people subscribe to it in their calendar and never touch it again.
 
-**¿Hay SDKs?** Todavía no, y para leer no hacen falta: OTE es JSON plano, se consume con cualquier
-cliente HTTP y se valida con un validador de JSON Schema estándar contra
-[`@opentechevents/schema`](https://www.npmjs.com/package/@opentechevents/schema). Hay **SDKs de
-referencia** (JS/TS, Python… para leer, escribir y validar, con playground) entre las herramientas
-propuestas del ecosistema — si te haría falta una, dilo (abajo).
+**Are there SDKs?** Not yet, and to read you don't need them: OTE is plain JSON, consumed with any HTTP client and validated with a standard JSON Schema validator against [`@opentechevents/schema`](https://www.npmjs.com/package/@opentechevents/schema). There are **reference SDKs** (JS/TS, Python… to read, write, and validate, with a playground) among the proposed ecosystem tools — if you'd need one, say so (below).
 
-Al usar el feed, **respeta la atribución**: es CC-BY-4.0 y cada evento indica a quién atribuir en su
-`source`.
+When you use the feed, **respect attribution**: it is CC-BY-4.0 and each event states whom to attribute in its `source`.
 
-### El ecosistema está por construir — y buena parte, por reclamar
+### The ecosystem is yet to be built — and much of it, up for grabs
 
-OTE Spec es reciente: hoy la única pieza en marcha es este agregador. Todo lo demás está **propuesto y
-libre para que alguien lo construya** — importadores de Meetup/Luma/Sessionize/Eventbrite, extractores
-schema.org/JSON-LD, exportadores a RSS y a schema.org/Event, widgets embebibles, badges de
-suscripción, bots de notificación por temática, editores de eventos, SDKs de referencia…
+OTE Spec is recent: today the only piece running is this aggregator. Everything else is **proposed and free for someone to build** — Meetup/Luma/Sessionize/Eventbrite importers, schema.org/JSON-LD extractors, exporters to RSS and to schema.org/Event, embeddable widgets, subscription badges, topic-notification bots, event editors, reference SDKs…
 
-El catálogo completo —lo que ya existe, lo que está en marcha y lo que está *up for grabs*— vive en
-**[opentechevents.org/#tools](https://opentechevents.org/#tools)**. Explóralo:
+The full catalogue — what already exists, what is in progress, and what is *up for grabs* — lives at **[opentechevents.org/#tools](https://opentechevents.org/#tools)**. Explore it:
 
-- **Construye algo del feed actual.** Cualquier consumidor (una app, un bot, una newsletter, un
-  directorio) que lea `feed.json` ya funciona hoy, sin esperar a nadie.
-- **Reclama una herramienta propuesta** para construirla, o **propón la que falte** — si te haría
-  falta un importador, un exportador o un SDK concreto, abrir un issue prioriza qué se construye por
-  demanda real.
+- **Build something on the current feed.** Any consumer (an app, a bot, a newsletter, a directory) that reads `feed.json` already works today, without waiting for anyone.
+- **Claim a proposed tool** to build it, or **propose the one that's missing** — if you'd need a specific importer, exporter, or SDK, opening an issue prioritises what gets built by real demand.
 
 ---
 
-## Licencias
+## For event organisers
 
-- **Código**: MIT.
-- **Feed agregado** (`feed.*`): **CC-BY-4.0**, con la atribución de cada evento en su `source`.
+**Do you run a meetup, group, or conference and want your events to show up?**
 
-Solo entran al feed eventos cuya reutilización está clara, por una de dos vías: una **licencia abierta**
-declarada en origen (`CC0-1.0` o `CC-BY-4.0`), o el **permiso explícito del organizador**, que queda
-registrado en un issue. Ninguna otra — sin licencia ni permiso, la fuente no entra.
+If your community already publishes an **iCalendar (`.ics`)** — Meetup, Google Calendar, Luma, and almost every tool export one — registering it is a form:
 
-No se admiten licencias *share-alike* (`CC-BY-SA`, `ODbL`) ni `NC`/`ND`: una sola fuente *share-alike*
-obligaría a **todo** el feed agregado —y a cualquiera que lo reutilice— a relicenciar su base de datos
-igual, lo que mata el caso de uso que justifica el proyecto. El detalle está en
-[la puerta de licencia](aggregator.md#puerta-de-licencia-open-data-gate).
+1. Open the **[source registration form](../../issues/new/choose)**.
+2. Provide your `.ics` URL, its timezone, and the name/website you want to be attributed as.
+3. Declare that the data can be republished as open data (you are an organiser and grant permission, or your calendar already has an open license). **This step is required**: a public `.ics` is not the same as a reusable one.
+
+A bot reads the issue and opens a PR. Before it is approved you will see a *dry-run*: **how many events would enter and what they look like**. A human reviews and integrates it.
+
+From then on, your events enter on their own with each daily update — a registered source means events forever, with no manual work.
+
+**Your community doesn't publish an `.ics`?** For now `.ics` is the only supported format (see [Roadmap](#roadmap)). If you have another source (an API, JSON-LD on your site, etc.), tell us in an issue: it helps us prioritise which importers to build.
+
+### What you control
+
+- **Attribution**: each of your events links to your community in its `source` field.
+- **Attendance mode** (in-person/online/hybrid): you declare it at registration; we do not guess it.
+- **Cancellations**: if you mark an event `CANCELLED` in your calendar, subscribers see it cancelled in theirs.
+- **Leaving**: if you take down your calendar or ask to be removed, your events disappear from the feed.
+
+---
+
+## For attendees (following events)
+
+**Just want to keep up with tech events and not miss them?** Today the most direct way is to subscribe to the calendar once: events from every registered community show up — and update on their own — in your usual calendar app.
+
+1. Copy the calendar URL: **`https://data.opentechevents.org/feed.ics`**
+2. Add it as a subscribed calendar (not a one-off import) in your app:
+   - **Google Calendar**: *Other calendars* → *Subscribe to calendar* → *From URL*.
+   - **Apple Calendar**: *File* → *New Calendar Subscription*.
+   - **Outlook**: *Add calendar* → *Subscribe from web*.
+
+That way you see everything in one place, with the updates and cancellations the communities publish. If you prefer a feed reader, RSS/JSON Feed are coming in [Phase 3](#roadmap).
+
+**What's coming: apps that filter by what matters to you.** The calendar dumps *all* events on you; the point of OTE Spec is for tools to exist that let you subscribe to exactly what interests you — by topic, city, attendance mode, or event type — and notify you (email, Telegram, webhook). That ecosystem is just starting: **there are no third-party apps consuming the feed yet**, but the ones that get built (readers by topic, notifications, widgets…) are listed at **[opentechevents.org/#tools](https://opentechevents.org/#tools)**. Missing one? Propose it there.
+
+> The feed is being populated with the first sources; at first you will see few events. The more communities register, the more complete it gets — encourage yours to [sign up](#for-event-organisers).
+
+---
+
+## Licensing
+
+- **Code**: MIT.
+- **Aggregated feed** (`feed.*`): **CC-BY-4.0**, with each event's attribution in its `source`.
+
+Only events whose reuse is clear enter the feed, by one of two routes: an **open license** declared at the origin (`CC0-1.0` or `CC-BY-4.0`), or the **organiser's explicit permission**, recorded in an issue. No other — without a license or permission, the source does not enter.
+
+*Share-alike* licenses (`CC-BY-SA`, `ODbL`) and `NC`/`ND` are not accepted: a single *share-alike* source would force **the whole** aggregated feed — and anyone who reuses it — to relicense their database the same way, which kills the use case that justifies the project. The detail is in [the license gate](aggregator.md#puerta-de-licencia-open-data-gate).
 
 ---
 
 ## Roadmap
 
-| Fase | Qué trae | Estado |
+| Phase | What it brings | Status |
 | --- | --- | --- |
-| **0** | JSON Schema de OTE v0.1 publicado en npm. | ✅ Hecho |
-| **1 (MVP)** | Conector `.ics`, feed `.json` + `.ics`, archivo, actualización diaria. | ✅ Código listo — ⏳ poblando fuentes reales |
-| **2** | Alta de fuentes por formulario → PR automático con *dry-run*. | 🔜 En camino |
-| **3** | Feeds RSS y JSON Feed; feeds pre-filtrados por temática. | Pendiente |
-| **4** | Nuevos importadores (JSON-LD/schema.org, Meetup, Luma, Sessionize…) y deduplicación entre fuentes. | Pendiente — el importador de **feeds OTE** (`type: ote`) ya está |
+| **0** | OTE v0.1 JSON Schema published on npm. | ✅ Done |
+| **1 (MVP)** | `.ics` connector, `.json` + `.ics` feed, archive, daily update. | ✅ Code ready — ⏳ populating real sources |
+| **2** | Source registration by form → automatic PR with a *dry-run*. | 🔜 On the way |
+| **3** | RSS and JSON Feed feeds; pre-filtered feeds by topic. | Pending |
+| **4** | New importers (JSON-LD/schema.org, Meetup, Luma, Sessionize…) and cross-source deduplication. | Pending — the **OTE feed** importer (`type: ote`) is already here |
 
-**Importadores futuros**: la ingesta es modular desde el día 1. Cada plataforma nueva es un conector
-independiente que no toca el núcleo. Si te interesa alguno en particular (o quieres aportarlo), dilo en
-un issue — priorizamos por demanda real.
+**Future importers**: ingestion is modular from day 1. Each new platform is an independent connector that does not touch the core. If you're interested in a particular one (or want to contribute it), say so in an issue — we prioritise by real demand.
 
 ---
 
-## Aprender más y colaborar
+## Learn more and get involved
 
-- **[aggregator.md](aggregator.md)** — el diseño completo, con el porqué de cada decisión.
-- **[OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec)** — el estándar de datos.
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** — cómo levantar el proyecto, cómo está organizado el código y
-  cómo añadir un importador nuevo.
-- **Feedback**: estamos empezando y nos vale de oro. [Abre un issue](../../issues/new/choose) o una
-  [discusión](../../discussions) — sobre todo si eres organizador/a o mantienes una plataforma de eventos.
+- **[aggregator.md](aggregator.md)** — the full design, with the reasoning behind each decision.
+- **[OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec)** — the data standard.
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — how to set up the project, how the code is organised, and how to add a new importer.
+- **Feedback**: we're just starting and it's worth gold to us. [Open an issue](../../issues/new/choose) or a [discussion](../../discussions) — especially if you're an organiser or maintain an events platform.

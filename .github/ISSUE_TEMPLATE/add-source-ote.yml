@@ -1,0 +1,68 @@
+name: Add a source (OTE feed)
+description: Register an existing OTE-spec feed.json from another platform or aggregator.
+title: 'Source: <community or platform name>'
+labels: [source]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a source. Use this form when the source already publishes a
+        `feed.json` that conforms to [OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec)
+        (another platform or aggregator). For a plain public calendar, use the **Add a source (.ics)**
+        form instead.
+
+        A bot reads this issue and opens a PR with the `sources/<id>.yml` file; a human reviews it
+        before merging. The PR runs a *dry-run*: you will see how many events would enter, and what
+        they look like, before anything is published.
+
+        Each OTE event already carries its own timezone, so there is no timezone field here.
+  - type: input
+    id: id
+    attributes:
+      label: Identifier (slug)
+      description: Lowercase, hyphens. It becomes the file name. E.g. `another-platform`.
+      placeholder: another-platform
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: feed.json URL
+      description: The public link to the OTE `feed.json`.
+      placeholder: https://another-platform.example/feed.json
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+      placeholder: Another Platform
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Source website
+      placeholder: https://another-platform.example
+  - type: dropdown
+    id: license
+    attributes:
+      label: Under what rights can we republish this data?
+      options:
+        - 'I represent the source and grant permission to publish it as open data (CC-BY-4.0)'
+        - 'The source is already licensed CC-BY-4.0'
+        - 'The source is already licensed CC0-1.0'
+    validations:
+      required: true
+  - type: checkboxes
+    id: license-confirm
+    attributes:
+      label: License confirmation (required)
+      description: >-
+        Without this it cannot be published. A reachable feed is not the same as a reusable one.
+      options:
+        - label: >-
+            I declare that this data can be published as open data under CC-BY-4.0, because I
+            represent the source and grant permission, or because the source already allows it with
+            an open license.
+          required: true

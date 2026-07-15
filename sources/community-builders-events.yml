@@ -1,6 +1,6 @@
-# Calendario propio del organizador. Al ser suyo, lo libera bajo CC0-1.0
-# (dedicación al dominio público, la licencia más permisiva de la allowlist),
-# así que pasa la puerta de licencia por la Vía 1 sin necesitar permiso escrito.
+# The organiser's own calendar. Being theirs, they release it under CC0-1.0
+# (public-domain dedication, the most permissive license in the allowlist),
+# so it clears the license gate via Route 1 without needing a written permission.
 id: community-builders-events
 type: ics
 enabled: true

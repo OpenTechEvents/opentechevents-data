@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Feedback or a question
+    url: https://github.com/OpenTechEvents/opentechevents-data/discussions
+    about: Anything that is not a source registration — feedback, ideas, or how to consume the feed.
+  - name: How sources work
+    url: https://github.com/OpenTechEvents/opentechevents-data/blob/main/sources/README.md
+    about: What each source file declares and how the license gate works.

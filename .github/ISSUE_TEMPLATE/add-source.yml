@@ -1,62 +1,63 @@
-name: Añadir una fuente (.ics)
-description: Registra un calendario iCalendar público para que sus eventos entren al feed.
-title: 'Fuente: <nombre de la comunidad>'
+name: Add a source (.ics)
+description: Register a public iCalendar so its events enter the feed.
+title: 'Source: <community name>'
 labels: [source]
 body:
   - type: markdown
     attributes:
       value: |
-        Gracias por proponer una fuente. Un bot leerá este issue y abrirá un PR con el
-        fichero `sources/<id>.yml`; una persona lo revisará antes de mergear.
+        Thanks for proposing a source. A bot reads this issue and opens a PR with the
+        `sources/<id>.yml` file; a human reviews it before merging.
 
-        El PR hará un *dry-run*: verás cuántos eventos entrarían y con qué pinta, antes de nada.
+        The PR runs a *dry-run*: you will see how many events would enter, and what they look
+        like, before anything is published.
   - type: input
     id: id
     attributes:
-      label: Identificador (slug)
-      description: Minúsculas, guiones. Será el nombre del fichero. Ej. `rust-madrid`.
+      label: Identifier (slug)
+      description: Lowercase, hyphens. It becomes the file name. E.g. `rust-madrid`.
       placeholder: rust-madrid
     validations:
       required: true
   - type: input
     id: url
     attributes:
-      label: URL del .ics
-      description: El enlace público al calendario iCalendar.
+      label: .ics URL
+      description: The public link to the iCalendar.
       placeholder: https://rustmadrid.example/events.ics
     validations:
       required: true
   - type: input
     id: timezone
     attributes:
-      label: Zona horaria (IANA)
+      label: Timezone (IANA)
       description: >-
-        En qué zona ocurren los eventos. Obligatoria: iCalendar a menudo no la trae y no la
-        adivinamos. Ej. `Europe/Madrid`, `America/Mexico_City`.
+        Which timezone the events happen in. Required: iCalendar often omits it and we do not
+        guess. E.g. `Europe/Madrid`, `America/Mexico_City`.
       placeholder: Europe/Madrid
     validations:
       required: true
   - type: input
     id: name
     attributes:
-      label: Nombre de la comunidad
+      label: Community name
       placeholder: Rust Madrid
     validations:
       required: true
   - type: input
     id: homepage
     attributes:
-      label: Web de la comunidad
+      label: Community website
       placeholder: https://rustmadrid.example
   - type: dropdown
     id: attendance
     attributes:
-      label: Modalidad por defecto
+      label: Default attendance mode
       description: >-
-        Solo si TODOS los eventos de esta fuente son de la misma modalidad. Si dudas, déjalo
-        en "no forzar": el sistema la infiere cuando la señal es inequívoca y la omite cuando no.
+        Only if EVERY event from this source has the same mode. When in doubt, leave it as
+        "do not force": the system infers it when the signal is unambiguous and omits it otherwise.
       options:
-        - 'no forzar (recomendado)'
+        - 'do not force (recommended)'
         - in-person
         - online
         - hybrid
@@ -64,21 +65,21 @@ body:
   - type: dropdown
     id: license
     attributes:
-      label: ¿Bajo qué derechos podemos republicar estos datos?
+      label: Under what rights can we republish this data?
       options:
-        - 'Soy organizador/a y doy permiso para publicarlos como open data (CC-BY-4.0)'
-        - 'La fuente ya tiene licencia CC-BY-4.0'
-        - 'La fuente ya tiene licencia CC0-1.0'
+        - 'I am an organiser and grant permission to publish it as open data (CC-BY-4.0)'
+        - 'The source is already licensed CC-BY-4.0'
+        - 'The source is already licensed CC0-1.0'
     validations:
       required: true
   - type: checkboxes
     id: license-confirm
     attributes:
-      label: Confirmación de licencia (obligatoria)
+      label: License confirmation (required)
       description: >-
-        Sin esto no se puede publicar. Que un `.ics` sea accesible no lo hace reutilizable.
+        Without this it cannot be published. A reachable `.ics` is not the same as a reusable one.
       options:
         - label: >-
-            Declaro que estos datos pueden publicarse como open data bajo CC-BY-4.0, porque soy
-            organizador/a y doy permiso, o porque la fuente ya lo permite con una licencia abierta.
+            I declare that this data can be published as open data under CC-BY-4.0, because I am an
+            organiser and grant permission, or because the source already allows it with an open license.
           required: true

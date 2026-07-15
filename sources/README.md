@@ -1,16 +1,12 @@
-# `sources/` — el registro de fuentes
+# `sources/` — the source registry
 
-Un fichero YAML por fuente, `sources/<id>.yml`. El `id` **debe** coincidir con el nombre del fichero.
+One YAML file per source, `sources/<id>.yml`. The `id` **must** match the file name.
 
-Cada fichero declara de dónde salen los eventos (`config.url`), en qué zona horaria ocurren
-(`timezone`, obligatoria) y bajo qué derechos pueden republicarse (`license` **o** `permission`).
-El CI valida cada fichero contra el esquema y contra la [puerta de licencia](../aggregator.md#puerta-de-licencia-open-data-gate),
-y en cada PR hace un *dry-run* que comenta cuántos eventos entrarían.
+Each file declares where the events come from (`config.url`), which timezone they happen in (`timezone`, required), and under what rights they can be republished (`license` **or** `permission`). CI validates each file against the schema and against the [license gate](../aggregator.md#puerta-de-licencia-open-data-gate), and on every PR runs a *dry-run* that comments how many events would enter.
 
-Lo normal es no editar estos ficheros a mano: se abren desde el
-[Issue Form de alta de fuente](https://github.com/OpenTechEvents/opentechevents-data/issues/new/choose).
+Normally you don't edit these files by hand: they are opened from the [source registration Issue Form](https://github.com/OpenTechEvents/opentechevents-data/issues/new/choose).
 
-Ejemplo mínimo:
+Minimal example:
 
 ```yaml
 id: rust-madrid
@@ -26,28 +22,25 @@ defaults:
   languages: [es]
 ```
 
-Sin `license` en la allowlist (`CC0-1.0`, `CC-BY-4.0`), se necesita el bloque `permission`
-enlazando el issue donde el organizador concede el permiso por escrito. Sin una de las dos vías,
-la fuente no entra.
+Without a `license` in the allowlist (`CC0-1.0`, `CC-BY-4.0`), a `permission` block is required, linking the issue where the organiser grants permission in writing. Without one of the two routes, the source does not enter.
 
-## Tipos de fuente (`type`)
+## Source types (`type`)
 
-| `type` | Ingiere | `config` |
+| `type` | Ingests | `config` |
 | --- | --- | --- |
-| `ics` | Un calendario iCalendar (`.ics`). | `url` del `.ics` |
-| `ote` | Un `feed.json` que ya cumple [OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec) (otra plataforma/agregador). | `url` del `feed.json` |
+| `ics` | An iCalendar (`.ics`). | `url` of the `.ics` |
+| `ote` | A `feed.json` that already conforms to [OTE Spec](https://github.com/OpenTechEvents/opentechevents-spec) (another platform/aggregator). | `url` of the `feed.json` |
 
-Para `ote`, el `timezone` del fichero **no se usa** (cada evento OTE ya la trae), pero el esquema lo
-sigue exigiendo; pon la zona predominante del feed. Ejemplo:
+For `ote`, the file's `timezone` **is not used** (each OTE event already carries it), but the schema still requires it; set the feed's predominant zone. Example:
 
 ```yaml
-id: otra-plataforma
+id: another-platform
 type: ote
-timezone: Europe/Madrid       # formalismo: ignorado por el conector ote
+timezone: Europe/Madrid       # formality: ignored by the ote connector
 config:
-  url: https://otra-plataforma.example/feed.json
+  url: https://another-platform.example/feed.json
 license: CC-BY-4.0
 attribution:
-  name: Otra Plataforma
-  url: https://otra-plataforma.example
+  name: Another Platform
+  url: https://another-platform.example
 ```

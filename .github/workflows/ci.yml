@@ -54,7 +54,7 @@ jobs:
         if: steps.changed.outputs.ids != ''
         run: |
           {
-            echo "## Dry-run de las fuentes de este PR"
+            echo "## Dry-run of this PR's sources"
             echo
             while read -r id; do
               [ -z "$id" ] && continue
@@ -71,16 +71,16 @@ jobs:
                       try {
                         const { feed, report } = JSON.parse(raw);
                         const source = report.sources[0] ?? {};
-                        console.log(`Eventos que entrarían: ${feed.events.length}`);
-                        console.log(`Descartados: ${source.errors?.length ?? 0}`);
-                        console.log(`Avisos: ${source.warnings?.length ?? 0}`);
+                        console.log(`Events that would enter: ${feed.events.length}`);
+                        console.log(`Dropped: ${source.errors?.length ?? 0}`);
+                        console.log(`Warnings: ${source.warnings?.length ?? 0}`);
                         console.log("");
                         for (const e of feed.events.slice(0, 10)) {
-                          const mode = e.attendanceMode ?? "modalidad desconocida";
+                          const mode = e.attendanceMode ?? "unknown attendance";
                           console.log(`  ${e.startDate} — ${e.name} (${mode})`);
                         }
                         if (feed.events.length > 10) {
-                          console.log(`  … y ${feed.events.length - 10} más`);
+                          console.log(`  … and ${feed.events.length - 10} more`);
                         }
                         for (const issue of [...(source.errors ?? []), ...(source.warnings ?? [])]) {
                           console.log(`\n[${issue.code}] ${issue.message}`);
@@ -102,7 +102,7 @@ jobs:
           script: |
             const fs = require('node:fs');
             const body = fs.readFileSync('comment.md', 'utf8');
-            const marker = '## Dry-run de las fuentes de este PR';
+            const marker = "## Dry-run of this PR's sources";
 
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,

@@ -1,14 +1,14 @@
-# ⚠️ FUENTE DE PRUEBA — PENDIENTE DE CONFIRMACIÓN DE LICENCIA
+# ⚠️ TEST SOURCE — PENDING LICENSE CONFIRMATION
 #
-# Primer ejemplo real, usado para validar el pipeline de punta a punta contra un .ics
-# público (241 eventos, horas en UTC → convertidas a Europe/Madrid, 0 inválidos).
+# First real example, used to validate the pipeline end-to-end against a public .ics
+# (241 events, times in UTC → converted to Europe/Madrid, 0 invalid).
 #
-# `enabled: false` a propósito: NO se publica todavía. La puerta de licencia solo se
-# aplica a las fuentes habilitadas, así que una fuente puede vivir aquí mientras se
-# confirma su licencia. Antes de poner `enabled: true` hay que rellenar UNA de las dos vías:
-#   - `license:` con un id de la allowlist (CC0-1.0 / CC-BY-4.0) verificable en origen, o
-#   - el bloque `permission:` enlazando el issue donde el organizador concede el permiso.
-# Este calendario de Google no declara licencia, así que hoy no cumple ninguna de las dos.
+# `enabled: false` on purpose: NOT published yet. The license gate only applies to
+# enabled sources, so a source can live here while its license is confirmed. Before
+# setting `enabled: true` you must fill in ONE of the two routes:
+#   - `license:` with an allowlist id (CC0-1.0 / CC-BY-4.0) verifiable at the origin, or
+#   - the `permission:` block linking the issue where the organiser grants permission.
+# This Google calendar declares no license, so today it meets neither.
 id: eventos-tech-granada
 type: ics
 enabled: false

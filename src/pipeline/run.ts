@@ -51,6 +51,8 @@ async function ingestSource(
   const report: SourceReport = {
     id: source.id,
     type: source.type,
+    name: source.attribution?.name ?? source.id,
+    ...(source.attribution?.url ? { url: source.attribution.url } : {}),
     ok: true,
     events: 0,
     errors: [],

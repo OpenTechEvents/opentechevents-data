@@ -1,105 +1,88 @@
-# Contribuir a OpenTechEvents — datos
+# Contributing to OpenTechEvents — data
 
-Gracias por querer aportar. Hay tres formas de contribuir, de menos a más técnica:
+Thanks for wanting to help. There are three ways to contribute, from least to most technical:
 
-1. **Registrar tu comunidad como fuente** — no requiere programar. Ver [README → Para organizadores](README.md#para-organizadores-de-eventos).
-2. **Dar feedback** — estamos en fase inicial. Qué falla, qué falta, qué te haría falta para consumir
-   los datos. [Abre un issue](../../issues/new/choose) o una [discusión](../../discussions).
-3. **Tocar código** — arreglar el conector `.ics`, mejorar el pipeline o añadir un importador nuevo.
-   El resto de este documento va de eso.
+1. **Register your community as a source** — no coding required. See [README → For event organisers](README.md#for-event-organisers).
+2. **Give feedback** — we're in an early phase. What breaks, what's missing, what you'd need to consume the data. [Open an issue](../../issues/new/choose) or a [discussion](../../discussions).
+3. **Touch code** — fix the `.ics` connector, improve the pipeline, or add a new importer. The rest of this document is about that.
 
-El diseño completo, con el porqué de cada decisión, está en **[aggregator.md](aggregator.md)**. Léelo
-antes de un cambio grande: casi cualquier "¿por qué está hecho así?" está respondido ahí.
+The full design, with the reasoning behind each decision, is in **[aggregator.md](aggregator.md)**. Read it before a big change: almost any "why is it done this way?" is answered there.
 
 ---
 
-## Levantar el proyecto
+## Getting the project up
 
-Requiere **Node ≥ 22**.
+Requires **Node ≥ 22**.
 
 ```bash
 npm install
-npm test            # tests, sin red (fetch y now se inyectan → deterministas)
+npm test            # tests, no network (fetch and now are injected → deterministic)
 npm run check       # typecheck (tsc --noEmit)
-npm run aggregate   # ejecuta el pipeline completo → out/
-npm run dry-run -- --source <id>   # ingiere una sola fuente sin escribir nada
+npm run aggregate   # runs the full pipeline → out/
+npm run dry-run -- --source <id>   # ingest a single source without writing anything
 ```
 
-`npm run dry-run` es lo que corre el bot en cada PR de alta de fuente: ingiere, valida y muestra qué
-se publicaría, sin tocar datos ni snapshots.
+`npm run dry-run` is what the bot runs on every source-registration PR: it ingests, validates, and shows what would be published, without touching data or snapshots.
 
 ---
 
-## Cómo está organizado
+## How it's organised
 
 ```
 src/
-  ote/          Tipos de OTE + validación ajv contra @opentechevents/schema (desde npm, no copia local)
-  sources/      Registro sources/*.yml + puerta de licencia (open data gate)
-  connectors/   Interfaz de conector + registro; ics/ es el único conector del MVP
+  ote/          OTE types + ajv validation against @opentechevents/schema (from npm, not a local copy)
+  sources/      sources/*.yml registry + license gate (open data gate)
+  connectors/   Connector interface + registry; ics/ is the only MVP connector
   pipeline/     validate → dedupe → partition → render (feed.json, feed.ics) → report
-  cli.ts        Punto de entrada
-tests/          vitest + fixtures .ics
-sources/        El registro de fuentes (un .yml por fuente)
+  cli.ts        Entry point
+tests/          vitest + .ics fixtures
+sources/        The source registry (one .yml per source)
 ```
 
-El pipeline es determinista y cada paso es puro y testeable por separado:
+The pipeline is deterministic and every step is pure and testable in isolation:
 
 ```
 sources/*.yml → discover → fetch → parse → normalize → validate → dedupe → partition → render → publish
-                          └──── esto lo aporta el conector ────┘ └──── común a todo formato ────┘
+                          └──── this is what the connector provides ────┘ └──── common to every format ────┘
 ```
 
-Los pasos **fetch → parse → normalize** son lo único que aporta un conector. Todo lo demás
-(validate → render) es común y **no se toca al añadir una fuente ni un formato nuevo**. Ese es el truco
-de la mantenibilidad.
+The **fetch → parse → normalize** steps are the only thing a connector provides. Everything else (validate → render) is common and **is not touched when adding a source or a new format**. That is the maintainability trick.
 
 ---
 
-## Añadir un conector (importador nuevo)
+## Adding a connector (a new importer)
 
-Un formato nuevo (JSON-LD, Meetup, otro feed OTE…) es:
+A new format (JSON-LD, Meetup, another OTE feed…) is:
 
-1. Un fichero en `src/connectors/<tipo>/` que implementa la interfaz `Connector`
-   (ver [`src/connectors/types.ts`](src/connectors/types.ts) y el conector `ics/` como referencia).
-2. Una línea que lo registra en [`src/connectors/registry.ts`](src/connectors/registry.ts).
-3. Sus fixtures y tests en `tests/`.
+1. A file in `src/connectors/<type>/` that implements the `Connector` interface (see [`src/connectors/types.ts`](src/connectors/types.ts) and the `ics/` connector as a reference).
+2. A line registering it in [`src/connectors/registry.ts`](src/connectors/registry.ts).
+3. Its fixtures and tests in `tests/`.
 
-Reglas que todo conector cumple:
+Rules every connector follows:
 
-- **Nunca lanza.** Acumula errores y avisos por evento en el `IngestResult`; un evento roto es una
-  entrada del `report.json`, no un crash.
-- **Nunca inventa datos.** Si el dato no viene, se degrada con un *warning*; no se adivina. (El caso
-  de la zona horaria en `.ics` está documentado en detalle en [aggregator.md](aggregator.md#zona-horaria-el-punto-duro).)
-- **`fetch` y `now` se reciben por `Ctx`**, nunca se usan los globales — así los tests corren sin red y
-  con reloj congelado.
+- **Never throws.** It accumulates per-event errors and warnings in the `IngestResult`; a broken event is a `report.json` entry, not a crash.
+- **Never invents data.** If a datum is missing, it degrades with a *warning*; it does not guess. (The timezone case in `.ics` is documented in detail in [aggregator.md](aggregator.md#zona-horaria-el-punto-duro).)
+- **`fetch` and `now` are received via `Ctx`**, never the globals — so tests run without network and with a frozen clock.
 
 ---
 
-## Editar el registro de fuentes a mano
+## Editing the source registry by hand
 
-Lo normal es que las fuentes se den de alta por el [formulario](../../issues/new/choose), pero un
-`sources/<id>.yml` se puede editar a mano. Formato y reglas: [`sources/README.md`](sources/README.md).
+Sources are normally registered through the [form](../../issues/new/choose), but a `sources/<id>.yml` can be edited by hand. Format and rules: [`sources/README.md`](sources/README.md).
 
-El CI rechaza un `sources/*.yml` que no valide contra el esquema del conector **o** que no pase la
-[puerta de licencia](aggregator.md#puerta-de-licencia-open-data-gate). Sin `license` en la allowlist
-(`CC0-1.0`, `CC-BY-4.0`) o un bloque `permission` que enlace el permiso del organizador, la fuente no
-entra. Esto no es negociable: es lo que hace que el feed sea open data de verdad.
+CI rejects a `sources/*.yml` that does not validate against the connector's schema **or** that does not pass the [license gate](aggregator.md#puerta-de-licencia-open-data-gate). Without a `license` in the allowlist (`CC0-1.0`, `CC-BY-4.0`) or a `permission` block that links the organiser's grant, the source does not enter. This is non-negotiable: it is what makes the feed genuinely open data.
 
 ---
 
-## Antes de abrir un PR
+## Before opening a PR
 
-- `npm run check` y `npm test` en verde.
-- Un cambio de comportamiento lleva su test. Los tests van sin red: usa fixtures `.ics` e inyecta
-  `fetch`/`now`, no salgas a internet.
-- Si tocas el conector o el pipeline, verifica con `npm run dry-run` sobre una fuente real o fixture.
-- Si tu cambio destapa un hueco de la spec OTE, cuéntalo — el valor de este repo es precisamente
-  encontrar esos huecos con evidencia (ver [aggregator.md → Lo que esto le exige a la spec](aggregator.md#lo-que-esto-le-exige-a-la-spec)).
+- `npm run check` and `npm test` green.
+- A behaviour change carries its test. Tests run without network: use `.ics` fixtures and inject `fetch`/`now`, don't go out to the internet.
+- If you touch the connector or the pipeline, verify with `npm run dry-run` against a real source or fixture.
+- If your change uncovers a gap in the OTE spec, tell us — the value of this repo is precisely finding those gaps with evidence (see [aggregator.md → What this demands of the spec](aggregator.md#lo-que-esto-le-exige-a-la-spec)).
 
 ---
 
-## Licencia de las contribuciones
+## License of contributions
 
-El código se publica bajo **MIT**; al contribuir aceptas que tu aportación se licencie igual. Los datos
-del feed van bajo **CC-BY-4.0** (ver [README → Licencias](README.md#licencias)).
+The code is published under **MIT**; by contributing you accept that your contribution is licensed the same. The feed data is under **CC-BY-4.0** (see [README → Licensing](README.md#licensing)).

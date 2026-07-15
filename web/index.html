@@ -81,6 +81,24 @@
     .feed a.url:hover { text-decoration: underline; }
     .badge { display: inline-block; font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
       background: var(--accent); color: var(--accent-fg); border-radius: 999px; padding: .1rem .5rem; margin-left: .5rem; vertical-align: middle; }
+    .feed .count { text-align: right; color: var(--muted); font-size: .9rem; white-space: nowrap; }
+    .feed .count strong { color: var(--fg); font-variant-numeric: tabular-nums; }
+    .feed .name a { color: inherit; text-decoration: none; }
+    .feed .name a:hover { text-decoration: underline; }
+    .cta {
+      display: inline-block; margin-top: 1.1rem; background: var(--accent); color: var(--accent-fg);
+      text-decoration: none; font-weight: 600; padding: .6rem 1.05rem; border-radius: 10px; font-size: .95rem;
+    }
+    .cta:hover { opacity: .9; }
+    .audience { display: grid; gap: .5rem; margin: 0 0 2.5rem; }
+    .audience a {
+      display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem .6rem;
+      text-decoration: none; border: 1px solid var(--border); border-radius: 12px;
+      padding: .7rem 1.05rem; background: var(--card); color: var(--fg);
+    }
+    .audience a:hover { border-color: var(--accent); }
+    .audience strong { font-weight: 600; }
+    .audience .d { color: var(--muted); font-size: .9rem; }
     p.note { color: var(--muted); font-size: .92rem; }
     a { color: var(--accent); }
     code { background: var(--code-bg); padding: .1rem .35rem; border-radius: 5px; font-size: .85em; }
@@ -107,36 +125,45 @@
         <span lang="es">El feed de datos de eventos tech</span>
       </h1>
       <p class="lead">
-        <span lang="en">This domain serves the <strong>aggregated, open-licensed feed of tech community events</strong> — meetups, user groups and conferences — normalised to <a href="https://github.com/OpenTechEvents/opentechevents-spec">OTE Spec</a>. Subscribe to it in your calendar, or build on it.</span>
+        <span lang="en">This domain serves the <strong>aggregated, open-licensed feed of tech community events</strong> — meetups, user groups and conferences — normalised to <a href="https://opentechevents.org/">OTE Spec</a>. Subscribe to it in your calendar, or build on it.</span>
         <span lang="es">Este dominio sirve el <strong>feed agregado y con licencia abierta de eventos de comunidades tech</strong> — meetups, grupos de usuarios y conferencias — normalizado a <a href="https://github.com/OpenTechEvents/opentechevents-spec">OTE Spec</a>. Suscríbelo en tu calendario, o construye encima.</span>
       </p>
 
+      <nav class="audience" aria-label="By audience">
+        <a href="https://github.com/OpenTechEvents/opentechevents-data#for-platforms-and-developers-consuming-the-data">
+          <strong><span lang="en">Developers &amp; platforms</span><span lang="es">Desarrolladores y plataformas</span></strong>
+          <span class="d"><span lang="en">Consume the feed →</span><span lang="es">Consume el feed →</span></span>
+        </a>
+        <a href="https://github.com/OpenTechEvents/opentechevents-data#for-event-organisers">
+          <strong><span lang="en">Event organisers</span><span lang="es">Organizadores</span></strong>
+          <span class="d"><span lang="en">Register your community →</span><span lang="es">Registra tu comunidad →</span></span>
+        </a>
+        <a href="https://github.com/OpenTechEvents/opentechevents-data#for-attendees-following-events">
+          <strong><span lang="en">Attendees</span><span lang="es">Asistentes</span></strong>
+          <span class="d"><span lang="en">Subscribe in your calendar →</span><span lang="es">Suscríbelo en tu calendario →</span></span>
+        </a>
+      </nav>
+
       <div class="stats" id="stats" hidden>
-        <span><strong id="s-upcoming">—</strong>
-          <span lang="en">upcoming events</span><span lang="es">próximos eventos</span></span>
-        <span class="sep">·</span>
-        <span><strong id="s-sources">—</strong>
-          <span lang="en">sources</span><span lang="es">fuentes</span></span>
-        <span class="sep">·</span>
         <span><span lang="en">updated</span><span lang="es">actualizado</span> <span id="s-updated">—</span></span>
       </div>
 
       <h2><span lang="en">Feeds</span><span lang="es">Feeds</span></h2>
       <div class="feeds">
         <div class="feed">
-          <span class="name">feed.ics <span class="badge">ics</span></span>
-          <a class="url" href="/feed.ics">/feed.ics</a>
-          <span class="desc">
-            <span lang="en">iCalendar. Subscribe from Google, Apple or Outlook Calendar (as a subscribed URL, not a one-off import).</span>
-            <span lang="es">iCalendar. Suscríbelo desde Google, Apple u Outlook Calendar (como URL suscrita, no importación puntual).</span>
-          </span>
-        </div>
-        <div class="feed">
           <span class="name">feed.json <span class="badge">ote</span></span>
           <a class="url" href="/feed.json">/feed.json</a>
           <span class="desc">
             <span lang="en"><strong>Canonical.</strong> The OTE feed everything else is derived from. Start here if you integrate at the data level.</span>
             <span lang="es"><strong>Canónico.</strong> El feed OTE del que se deriva todo lo demás. Empieza aquí si integras a nivel de datos.</span>
+          </span>
+        </div>
+        <div class="feed">
+          <span class="name">feed.ics <span class="badge">ics</span></span>
+          <a class="url" href="/feed.ics">/feed.ics</a>
+          <span class="desc">
+            <span lang="en">iCalendar. Subscribe from Google, Apple or Outlook Calendar (as a subscribed URL, not a one-off import).</span>
+            <span lang="es">iCalendar. Suscríbelo desde Google, Apple u Outlook Calendar (como URL suscrita, no importación puntual).</span>
           </span>
         </div>
         <div class="feed">
@@ -156,6 +183,23 @@
           </span>
         </div>
       </div>
+
+      <h2><span lang="en">Sources</span><span lang="es">Fuentes</span></h2>
+      <div class="feeds" id="sources" hidden></div>
+      <p class="note" id="sources-empty" hidden>
+        <span lang="en">No sources indexed yet.</span>
+        <span lang="es">Aún no hay fuentes indexadas.</span>
+      </p>
+      <p style="margin: 0">
+        <a class="cta" href="https://github.com/OpenTechEvents/opentechevents-data/issues/new/choose">
+          <span lang="en">Register your community as a source →</span>
+          <span lang="es">Registra tu comunidad como fuente →</span>
+        </a>
+      </p>
+      <p class="note" style="margin-top: .7rem">
+        <span lang="en">A public calendar (<code>.ics</code>) or an existing OTE feed, under an open license. A bot opens the PR with a dry-run; a human reviews it before it goes live.</span>
+        <span lang="es">Un calendario público (<code>.ics</code>) o un feed OTE existente, con licencia abierta. Un bot abre el PR con un dry-run; una persona lo revisa antes de publicarlo.</span>
+      </p>
 
       <h2><span lang="en">License</span><span lang="es">Licencia</span></h2>
       <p class="note">
@@ -202,15 +246,63 @@
       fetch('/report.json', { cache: 'no-store' }).then(function (r) {
         return r.ok ? r.json() : null;
       }).then(function (rep) {
-        if (!rep || !rep.totals) return;
-        document.getElementById('s-upcoming').textContent = rep.totals.upcoming;
-        document.getElementById('s-sources').textContent = rep.totals.sources;
+        if (!rep) return;
         if (rep.generatedAt) {
           var d = new Date(rep.generatedAt);
           document.getElementById('s-updated').textContent = isNaN(d) ? '—' : d.toISOString().slice(0, 10);
         }
         document.getElementById('stats').hidden = false;
+        renderSources(rep.sources || []);
       }).catch(function () {});
+
+      // Live source list from the same report. Only sources actually contributing events are
+      // shown — a source pending license confirmation contributes none and is not advertised.
+      function renderSources(sources) {
+        var box = document.getElementById('sources');
+        var list = sources.filter(function (s) { return (s.events || 0) > 0; })
+                          .sort(function (a, b) { return (b.events || 0) - (a.events || 0); });
+        if (!list.length) {
+          document.getElementById('sources-empty').hidden = false;
+          return;
+        }
+        list.forEach(function (s) {
+          var row = document.createElement('div');
+          row.className = 'feed';
+
+          var name = document.createElement('span');
+          name.className = 'name';
+          if (s.url) {
+            var a = document.createElement('a');
+            a.href = s.url;
+            a.rel = 'noopener';
+            a.textContent = s.name || s.id;
+            name.appendChild(a);
+          } else {
+            name.appendChild(document.createTextNode(s.name || s.id));
+          }
+          var badge = document.createElement('span');
+          badge.className = 'badge';
+          badge.textContent = s.type;
+          name.appendChild(document.createTextNode(' '));
+          name.appendChild(badge);
+
+          var count = document.createElement('span');
+          count.className = 'count';
+          var strong = document.createElement('strong');
+          strong.textContent = String(s.events || 0);
+          count.appendChild(strong);
+          count.appendChild(document.createTextNode(' '));
+          var en = document.createElement('span'); en.setAttribute('lang', 'en'); en.textContent = 'events';
+          var es = document.createElement('span'); es.setAttribute('lang', 'es'); es.textContent = 'eventos';
+          count.appendChild(en);
+          count.appendChild(es);
+
+          row.appendChild(name);
+          row.appendChild(count);
+          box.appendChild(row);
+        });
+        box.hidden = false;
+      }
     })();
   </script>
 </body>

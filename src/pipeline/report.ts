@@ -10,6 +10,10 @@ import type { Issue } from '../connectors/types.js';
 export interface SourceReport {
   id: string;
   type: string;
+  /** Human-readable name of the source, from its `attribution`. Falls back to `id`. */
+  name: string;
+  /** Homepage of the source community, from its `attribution`, when declared. */
+  url?: string;
   /** False when the source could not be ingested at all. */
   ok: boolean;
   /** Events that passed validation and made it into the output. */

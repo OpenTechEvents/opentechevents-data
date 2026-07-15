@@ -148,6 +148,29 @@ describe('the pipeline, end to end', () => {
     expect(result.feed.events.every((e) => e.license === 'CC0-1.0')).toBe(true);
   });
 
+  it("carries each source's name and url into its report entry", async () => {
+    // The landing lists sources from report.json, so it needs a readable name and homepage,
+    // not just the slug. Attribution flows through; when it is absent, name falls back to id.
+    const { attribution: _omit, ...anon } = testSource({ id: 'anon' });
+
+    const result = await run({
+      sources: [source, anon],
+      snapshots: memorySnapshotStore(),
+      meta,
+      fetch: fakeFetch({ [url]: fixture('rust-madrid.ics') }),
+      now: NOW,
+      logger: silentLogger,
+    });
+
+    expect(result.report.sources.find((s) => s.id === 'rust-madrid')).toMatchObject({
+      name: 'Rust Madrid',
+      url: 'https://rustmadrid.example',
+    });
+    const anonReport = result.report.sources.find((s) => s.id === 'anon');
+    expect(anonReport?.name).toBe('anon');
+    expect(anonReport?.url).toBeUndefined();
+  });
+
   it('is idempotent: running twice produces the same ids', async () => {
     // If ids were not stable, every daily run would duplicate the entire feed. This is the
     // condition for an aggregator to exist at all.
