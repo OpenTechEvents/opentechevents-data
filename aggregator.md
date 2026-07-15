@@ -338,6 +338,7 @@ Feed global en el MVP (los feeds pre-filtrados por `scope` vienen después):
 | `data/feed.xml` | RSS 2.0 | Lectores de feeds. |
 | `data/feed.jsonfeed.json` | JSON Feed 1.1 | Lectores modernos. |
 | `data/archive/YYYY.json` | OTE Feed | Eventos ya pasados. Dataset histórico. |
+| `data/archive/index.json` | — | Manifest de años del archivo (`{ years, updatedAt }`). Lo escribe el CLI leyendo los `YYYY.json` en disco; lo lee el índice de archivo (`archive/index.html`) para no adivinar el rango. |
 | `data/report.json` | — | Salud de la ingesta: por fuente, eventos ok / *warnings* / errores. |
 
 Servidos por GitHub Pages en URLs estables. El `.ics` **debe** tener URL estable para siempre: la gente lo suscribe en su calendario y no vuelve a tocarlo.

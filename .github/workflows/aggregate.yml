@@ -48,6 +48,9 @@ jobs:
           echo 'data.opentechevents.org' > out/CNAME
           # Static landing for the domain root (source of truth in web/, bot only places it).
           cp web/index.html out/index.html
+          # Archive index: dynamic client-side listing of archive/YYYY.json (source of truth in web/).
+          mkdir -p out/archive
+          cp web/archive/index.html out/archive/index.html
 
       # The previous run's raw snapshots live in out/raw/, which is what lets a source that
       # is down today be served from the last good data instead of vanishing from the feed.

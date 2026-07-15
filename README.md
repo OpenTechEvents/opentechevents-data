@@ -123,7 +123,8 @@ se publica en formatos estándar bajo URLs estables:
 | --- | --- | --- |
 | `feed.json` | [OTE Feed](https://github.com/OpenTechEvents/opentechevents-spec) (JSON) | **Canónico.** Todo lo demás se deriva de aquí. Empieza por este. |
 | `feed.ics` | iCalendar | Suscripción directa en Google/Apple/Outlook Calendar. |
-| `archive/YYYY.json` | OTE Feed | Eventos ya pasados. Dataset histórico. |
+| `archive/YYYY.json` | OTE Feed | Eventos ya pasados, por año. Dataset histórico. Índice navegable en [`archive/`](https://data.opentechevents.org/archive/). |
+| `archive/index.json` | JSON | Manifest de años disponibles (`{ "years": [...] }`). Lo consume el índice de archivo. |
 | `report.json` | JSON | Salud de la ingesta por fuente: eventos ok, avisos, errores. |
 
 > `feed.xml` (RSS) y `feed.jsonfeed.json` (JSON Feed) llegan en la [Fase 3](#roadmap).

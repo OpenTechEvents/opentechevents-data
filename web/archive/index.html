@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenTechEvents — archive</title>
+  <meta name="description" content="Past tech community events, by year. The historical dataset behind the OpenTechEvents feed, in OTE Spec.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1b1f24;
+      --muted: #5b6570;
+      --border: #e4e8ec;
+      --card: #f7f9fb;
+      --accent: #0f766e;
+      --accent-fg: #ffffff;
+      --code-bg: #eef2f5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1116; --fg: #e6edf3; --muted: #9aa5b1; --border: #262c34;
+        --card: #161b22; --accent: #2dd4bf; --accent-fg: #05201c; --code-bg: #1b222b;
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: #0e1116; --fg: #e6edf3; --muted: #9aa5b1; --border: #262c34;
+      --card: #161b22; --accent: #2dd4bf; --accent-fg: #05201c; --code-bg: #1b222b;
+    }
+    :root[data-theme="light"] {
+      --bg: #ffffff; --fg: #1b1f24; --muted: #5b6570; --border: #e4e8ec;
+      --card: #f7f9fb; --accent: #0f766e; --accent-fg: #ffffff; --code-bg: #eef2f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 2.5rem; }
+    .brand { display: flex; align-items: center; gap: .55rem; font-weight: 700; letter-spacing: -.01em; }
+    .brand .dot { width: .7rem; height: .7rem; border-radius: 50%; background: var(--accent); display: inline-block; }
+    .brand a { color: inherit; text-decoration: none; }
+    .langtoggle { display: flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+    .langtoggle button {
+      font: inherit; font-size: .8rem; font-weight: 600; padding: .25rem .7rem; border: 0; cursor: pointer;
+      background: transparent; color: var(--muted);
+    }
+    .langtoggle button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+    .crumb { font-size: .82rem; color: var(--muted); margin: 0 0 .5rem; }
+    .crumb a { color: inherit; text-decoration: none; }
+    .crumb a:hover { text-decoration: underline; }
+    h1 { font-size: 1.75rem; line-height: 1.25; letter-spacing: -.02em; margin: 0 0 .75rem; }
+    .lead { color: var(--muted); font-size: 1.05rem; margin: 0 0 2rem; }
+    .stats {
+      display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: baseline;
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: .9rem 1.1rem; margin: 0 0 2.5rem; font-size: .95rem; color: var(--muted);
+    }
+    .stats strong { color: var(--fg); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+    .stats .sep { opacity: .5; }
+    h2 {
+      display: flex; align-items: baseline; gap: .6rem;
+      font-size: 1.25rem; letter-spacing: -.01em; margin: 2.5rem 0 .9rem;
+    }
+    h2 .count { font-size: .8rem; font-weight: 400; color: var(--muted); font-variant-numeric: tabular-nums; }
+    h2 a.json {
+      margin-left: auto; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: .78rem; color: var(--accent); text-decoration: none; font-weight: 400;
+    }
+    h2 a.json:hover { text-decoration: underline; }
+    ul.events { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+    li.event {
+      border: 1px solid var(--border); border-radius: 12px; padding: .75rem 1rem; background: var(--card);
+    }
+    li.event .date {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .78rem;
+      color: var(--muted); font-variant-numeric: tabular-nums;
+    }
+    li.event .name { font-weight: 600; margin: .1rem 0; }
+    li.event .name a { color: inherit; text-decoration: none; }
+    li.event .name a:hover { text-decoration: underline; color: var(--accent); }
+    li.event .meta { font-size: .85rem; color: var(--muted); }
+    li.event .meta .pill {
+      display: inline-block; font-size: .7rem; font-weight: 600; text-transform: lowercase;
+      border: 1px solid var(--border); border-radius: 999px; padding: 0 .5rem; margin-right: .35rem;
+    }
+    .msg { color: var(--muted); font-size: .95rem; }
+    p.note { color: var(--muted); font-size: .92rem; }
+    a { color: var(--accent); }
+    code { background: var(--code-bg); padding: .1rem .35rem; border-radius: 5px; font-size: .85em; }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; }
+    footer a { text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    footer .links { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-bottom: 1rem; }
+    [data-lang="en"] [lang="es"], [data-lang="es"] [lang="en"] { display: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><span class="dot"></span><a href="https://opentechevents.org/">OpenTechEvents</a></div>
+      <div class="langtoggle" role="group" aria-label="Language">
+        <button type="button" data-setlang="en" aria-pressed="true">EN</button>
+        <button type="button" data-setlang="es" aria-pressed="false">ES</button>
+      </div>
+    </header>
+
+    <main>
+      <p class="crumb"><a href="/">← <span lang="en">feed</span><span lang="es">feed</span></a> / archive</p>
+      <h1>
+        <span lang="en">Event archive</span>
+        <span lang="es">Archivo de eventos</span>
+      </h1>
+      <p class="lead">
+        <span lang="en">Events that have ended, kept by year. An event leaves the <a href="/feed.json">feed</a> once it is over and lands here. Each year is also a plain JSON file — <code>archive/YYYY.json</code> — you can consume directly.</span>
+        <span lang="es">Eventos ya terminados, guardados por año. Un evento sale del <a href="/feed.json">feed</a> cuando acaba y aterriza aquí. Cada año es también un JSON plano — <code>archive/YYYY.json</code> — que puedes consumir directamente.</span>
+      </p>
+
+      <div class="stats" id="stats" hidden>
+        <span><strong id="s-events">—</strong>
+          <span lang="en">archived events</span><span lang="es">eventos archivados</span></span>
+        <span class="sep">·</span>
+        <span><strong id="s-years">—</strong>
+          <span lang="en">years</span><span lang="es">años</span></span>
+      </div>
+
+      <div id="archive" aria-live="polite">
+        <p class="msg">
+          <span lang="en">Loading the archive…</span>
+          <span lang="es">Cargando el archivo…</span>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="links">
+        <a href="/"><span lang="en">Feed &amp; data ↗</span><span lang="es">Feed y datos ↗</span></a>
+        <a href="https://opentechevents.org/"><span lang="en">The project ↗</span><span lang="es">El proyecto ↗</span></a>
+        <a href="https://github.com/OpenTechEvents/opentechevents-data"><span lang="en">Repo &amp; docs ↗</span><span lang="es">Repo y docs ↗</span></a>
+      </div>
+      <p style="margin:0">
+        <span lang="en">Part of <a href="https://opentechevents.org/">OpenTechEvents</a>. The archive is CC-BY-4.0 — attribute each event to whoever its <code>source</code> names.</span>
+        <span lang="es">Parte de <a href="https://opentechevents.org/">OpenTechEvents</a>. El archivo es CC-BY-4.0 — atribuye cada evento a quien indique su <code>source</code>.</span>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+
+      // Language: persisted choice, else browser preference, else English.
+      var stored = null;
+      try { stored = localStorage.getItem('ote-lang'); } catch (e) {}
+      var lang = stored || ((navigator.language || 'en').slice(0, 2) === 'es' ? 'es' : 'en');
+      setLang(lang);
+
+      function setLang(l) {
+        root.setAttribute('data-lang', l);
+        root.setAttribute('lang', l);
+        document.querySelectorAll('[data-setlang]').forEach(function (b) {
+          b.setAttribute('aria-pressed', String(b.getAttribute('data-setlang') === l));
+        });
+        try { localStorage.setItem('ote-lang', l); } catch (e) {}
+      }
+      document.querySelectorAll('[data-setlang]').forEach(function (b) {
+        b.addEventListener('click', function () { setLang(b.getAttribute('data-setlang')); });
+      });
+
+      var el = function (tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; };
+      var esc = function (s) { var d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; };
+
+      // Format an OTE wall-clock (YYYY-MM-DD or ...THH:MM) without inventing a timezone.
+      function fmtDate(ev) {
+        var s = (ev.startDate || '').slice(0, 10);
+        var e = (ev.endDate || '').slice(0, 10);
+        return e && e !== s ? s + ' → ' + e : s;
+      }
+
+      function whereLabel(ev) {
+        var loc = ev.location || {};
+        if (loc.venue) return { pill: null, text: loc.venue };
+        if (loc.onlineUrl || ev.attendanceMode === 'online') return { pill: 'online', text: '' };
+        if (ev.attendanceMode) return { pill: ev.attendanceMode, text: '' };
+        return null;
+      }
+
+      function renderEvent(ev) {
+        var li = el('li', 'event');
+        var date = el('div', 'date'); date.textContent = fmtDate(ev); li.appendChild(date);
+
+        var name = el('div', 'name');
+        if (ev.url) {
+          var a = el('a'); a.href = ev.url; a.rel = 'noopener'; a.textContent = ev.name || ev.id; name.appendChild(a);
+        } else {
+          name.textContent = ev.name || ev.id;
+        }
+        li.appendChild(name);
+
+        var meta = el('div', 'meta');
+        var where = whereLabel(ev);
+        if (where) {
+          if (where.pill) { var p = el('span', 'pill'); p.textContent = where.pill; meta.appendChild(p); }
+          if (where.text) meta.appendChild(document.createTextNode(where.text + (ev.source && ev.source.name ? ' · ' : '')));
+          else if (ev.source && ev.source.name) meta.appendChild(document.createTextNode(''));
+        }
+        if (ev.source && ev.source.name) {
+          meta.appendChild(document.createTextNode(ev.source.name));
+        }
+        if (meta.childNodes.length) li.appendChild(meta);
+        return li;
+      }
+
+      function renderYear(year, events) {
+        var section = el('section');
+        var h2 = el('h2');
+        var yspan = el('span'); yspan.textContent = year; h2.appendChild(yspan);
+        var c = el('span', 'count');
+        c.setAttribute('data-en', events.length + (events.length === 1 ? ' event' : ' events'));
+        c.setAttribute('data-es', events.length + (events.length === 1 ? ' evento' : ' eventos'));
+        c.textContent = c.getAttribute('data-' + root.getAttribute('data-lang'));
+        h2.appendChild(c);
+        var json = el('a', 'json'); json.href = '/archive/' + year + '.json'; json.textContent = year + '.json';
+        h2.appendChild(json);
+        section.appendChild(h2);
+
+        var ul = el('ul', 'events');
+        events.forEach(function (ev) { ul.appendChild(renderEvent(ev)); });
+        section.appendChild(ul);
+        return { node: section, count: events.length };
+      }
+
+      function fetchYear(year) {
+        return fetch('/archive/' + year + '.json', { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (data) { return data && Array.isArray(data.events) ? data.events : null; })
+          .catch(function () { return null; });
+      }
+
+      function empty() {
+        var container = document.getElementById('archive');
+        container.innerHTML = '';
+        var p = el('p', 'msg');
+        p.innerHTML = '<span lang="en">No events have been archived yet.</span>' +
+                      '<span lang="es">Aún no se ha archivado ningún evento.</span>';
+        container.appendChild(p);
+      }
+
+      // The build writes archive/index.json listing exactly the years that exist, so the page
+      // never guesses a range or misses a year. Newest first.
+      fetch('/archive/index.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (manifest) {
+          var years = (manifest && Array.isArray(manifest.years) ? manifest.years : [])
+            .map(Number)
+            .filter(function (y) { return !isNaN(y); })
+            .sort(function (a, b) { return b - a; });
+          if (years.length === 0) { empty(); return; }
+
+          return Promise.all(years.map(fetchYear)).then(function (results) {
+            var container = document.getElementById('archive');
+            container.innerHTML = '';
+            var totalEvents = 0, yearsWith = 0;
+
+            years.forEach(function (year, i) {
+              var events = results[i];
+              if (!events || events.length === 0) return;
+              yearsWith++;
+              totalEvents += events.length;
+              container.appendChild(renderYear(year, events).node);
+            });
+
+            if (yearsWith === 0) { empty(); return; }
+
+            document.getElementById('s-events').textContent = totalEvents;
+            document.getElementById('s-years').textContent = yearsWith;
+            document.getElementById('stats').hidden = false;
+          });
+        })
+        .catch(empty);
+
+      // Keep the per-year counts in the chosen language when it is toggled.
+      document.querySelectorAll('[data-setlang]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var l = root.getAttribute('data-lang');
+          document.querySelectorAll('h2 .count').forEach(function (c) {
+            var t = c.getAttribute('data-' + l);
+            if (t) c.textContent = t;
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

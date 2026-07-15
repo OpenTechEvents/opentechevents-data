@@ -6,7 +6,7 @@
  *                                        → ingests one source, writes nothing, prints what
  *                                          WOULD be published. This is what the PR bot runs.
  */
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
 
@@ -58,6 +58,26 @@ async function mergeArchive(
 async function writeJson(file: string, value: unknown): Promise<void> {
   await mkdir(path.dirname(file), { recursive: true });
   await writeFile(file, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+}
+
+/**
+ * The manifest the archive index page reads to know which years exist, so it never has to
+ * guess a range and silently miss a year. Built from the files actually on disk — the archive
+ * accumulates, so a year with no new past events this run still has a file that must be listed.
+ */
+async function writeArchiveManifest(outDir: string, updatedAt: string): Promise<void> {
+  const dir = path.join(outDir, 'archive');
+  let entries: string[] = [];
+  try {
+    entries = await readdir(dir);
+  } catch {
+    return; // No archive/ at all — nothing to index.
+  }
+  const years = entries
+    .map((name) => /^(\d{4})\.json$/.exec(name)?.[1])
+    .filter((year): year is string => year !== undefined)
+    .sort();
+  await writeJson(path.join(dir, 'index.json'), { years, updatedAt });
 }
 
 async function main(): Promise<void> {
@@ -122,6 +142,8 @@ async function main(): Promise<void> {
       events: merged,
     });
   }
+
+  await writeArchiveManifest(outDir, result.feed.updatedAt);
 
   logger.info(`wrote ${outDir}/feed.json, ${outDir}/feed.ics, ${outDir}/report.json`);
 }
