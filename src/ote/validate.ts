@@ -10,7 +10,7 @@ import { eventSchema, feedSchema } from '@opentechevents/schema';
 import { createAjv, type ErrorObject, type ValidateFunction } from '../ajv.js';
 import type { OteEvent, OteFeed } from './types.js';
 
-const EVENT_SCHEMA_ID = 'https://opentechevents.org/schema/v0.1/event.schema.json';
+const EVENT_SCHEMA_ID = 'https://opentechevents.org/schema/v0.2/event.schema.json';
 
 const ajv = createAjv();
 
@@ -28,7 +28,7 @@ const validateFeedEventFn: ValidateFunction = ajv.compile({
 });
 
 const validateFeedFn: ValidateFunction = ajv.getSchema(
-  'https://opentechevents.org/schema/v0.1/feed.schema.json',
+  'https://opentechevents.org/schema/v0.2/feed.schema.json',
 )!;
 
 /** A schema violation, flattened to something a human can act on. */

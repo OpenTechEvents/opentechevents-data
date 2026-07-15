@@ -56,6 +56,11 @@ const sourceFileSchema = {
           items: { type: 'string', pattern: '^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$' },
         },
         attendanceMode: { enum: ['in-person', 'online', 'hybrid'] },
+        tags: {
+          type: 'array',
+          minItems: 1,
+          items: { type: 'string', minLength: 1 },
+        },
       },
     },
   },

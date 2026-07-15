@@ -83,6 +83,9 @@ const STATUS_TO_ICAL: Record<string, string> = {
 /**
  * CC-BY requires attribution, and an `.ics` that travels into someone's calendar has to
  * carry it: the description is the only field every calendar client actually shows.
+ *
+ * The tags are also appended here as `#hashtags`. Google Calendar discards `CATEGORIES` on
+ * import, so without this the tags would not survive the round trip into a GCal subscriber.
  */
 function describe(event: OteEvent): string | undefined {
   const parts: string[] = [];
@@ -93,6 +96,8 @@ function describe(event: OteEvent): string | undefined {
   if (source?.name) {
     parts.push(source.url ? `Source: ${source.name} — ${source.url}` : `Source: ${source.name}`);
   }
+
+  if (event.tags?.length) parts.push(event.tags.map((t) => `#${t}`).join(' '));
 
   return parts.length > 0 ? parts.join('\n\n') : undefined;
 }
@@ -116,10 +121,19 @@ function renderEvent(event: OteEvent, now: Date): string[] {
   if (location) lines.push(`LOCATION:${escapeText(location)}`);
 
   if (event.location?.onlineUrl) lines.push(`CONFERENCE;VALUE=URI:${event.location.onlineUrl}`);
+
+  const geo = event.location?.geo;
+  if (geo) lines.push(`GEO:${geo.lat};${geo.lon}`);
+
+  if (event.tags?.length) lines.push(`CATEGORIES:${event.tags.map(escapeText).join(',')}`);
+
   if (event.url) lines.push(`URL:${event.url}`);
 
   const status = event.status ? STATUS_TO_ICAL[event.status] : undefined;
   if (status) lines.push(`STATUS:${status}`);
+
+  // The edit instant, so a subscribing client can tell a real change from a re-export.
+  if (event.updatedAt) lines.push(`LAST-MODIFIED:${utcStamp(new Date(event.updatedAt))}`);
 
   lines.push('END:VEVENT');
   return lines;

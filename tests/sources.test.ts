@@ -100,9 +100,14 @@ config:
     );
   });
 
-  it('rejects fields the spec has nowhere to put, instead of accepting them silently', () => {
-    // `defaults.tags` is the tempting one: OTE v0.1 has no `tags`, so a source declaring
-    // them would look like it worked and then publish nothing.
-    expect(() => parse(`${valid}\n  tags: [rust]\n`)).toThrow(/does not match the source schema/);
+  it('accepts defaults.tags, merged into every event by the connector (v0.2)', () => {
+    expect(parse(`${valid}\n  tags: [rust, madrid]\n`)).toMatchObject({
+      defaults: { tags: ['rust', 'madrid'] },
+    });
+  });
+
+  it('rejects a defaults field the spec has nowhere to put, instead of accepting it silently', () => {
+    // A source declaring an unknown default would look like it worked and then publish nothing.
+    expect(() => parse(`${valid}\n  keywords: [rust]\n`)).toThrow(/does not match the source schema/);
   });
 });

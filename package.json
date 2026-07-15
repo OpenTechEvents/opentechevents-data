@@ -15,7 +15,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@opentechevents/schema": "^0.1.0",
+    "@opentechevents/schema": "^0.2.0",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "ical.js": "^2.1.0",

@@ -109,6 +109,7 @@ describe('the pipeline, end to end', () => {
     expect(result.feed.events.map((e) => e.name)).toEqual([
       'Rust Madrid — Async runtimes',
       'Rust Madrid — Online office hours',
+      'Rust Madrid — Taller de la comunidad',
       'Rust Madrid — Meetup con sala física y enlace automático',
       'Rust Madrid — Sesión cancelada',
     ]);
@@ -183,7 +184,7 @@ describe('the pipeline, when a source is down', () => {
       logger: silentLogger,
     });
 
-    expect(result.feed.events).toHaveLength(4);
+    expect(result.feed.events).toHaveLength(5);
     expect(result.report.sources[0]).toMatchObject({
       ok: true,
       servedFromSnapshot: { reason: 'ECONNREFUSED' },

@@ -7,7 +7,7 @@ import { renderIcs } from '../src/pipeline/render/ics.js';
 import { NOW } from './helpers.js';
 
 const feed = (events: OteEvent[]): OteFeed => ({
-  specVersion: '0.1.0',
+  specVersion: '0.2.0',
   title: 'OpenTechEvents',
   license: 'CC-BY-4.0',
   updatedAt: NOW.toISOString(),
@@ -95,6 +95,30 @@ describe('renderIcs', () => {
     );
 
     expect(reparse(ics)[0]?.description).toContain('Source: Rust Madrid — https://rustmadrid.example');
+  });
+
+  it('exports tags as CATEGORIES and appends them as #hashtags for the GCal round trip', () => {
+    // Google Calendar drops CATEGORIES on import, so the hashtags in the description are what
+    // actually survive into a GCal subscriber's copy.
+    const ics = renderIcs(feed([event({ tags: ['rust', 'wasm'] })]), NOW);
+
+    expect(ics).toContain('CATEGORIES:rust,wasm');
+    expect(reparse(ics)[0]?.description).toContain('#rust #wasm');
+  });
+
+  it('exports location.geo as an iCalendar GEO property', () => {
+    const ics = renderIcs(
+      feed([event({ location: { venue: 'Campus Madrid', geo: { lat: 40.4168, lon: -3.7038 } } })]),
+      NOW,
+    );
+
+    expect(ics).toContain('GEO:40.4168;-3.7038');
+  });
+
+  it('exports updatedAt as LAST-MODIFIED', () => {
+    const ics = renderIcs(feed([event({ updatedAt: '2026-07-01T10:00:00Z' })]), NOW);
+
+    expect(ics).toContain('LAST-MODIFIED:20260701T100000Z');
   });
 
   it('marks a cancelled event as CANCELLED rather than dropping it', () => {

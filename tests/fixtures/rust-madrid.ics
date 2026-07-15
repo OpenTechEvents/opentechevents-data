@@ -62,4 +62,13 @@ DTSTART;TZID=Europe/Madrid:20260305T190000
 DTEND;TZID=Europe/Madrid:20260305T210000
 LOCATION:Campus Madrid
 END:VEVENT
+BEGIN:VEVENT
+UID:gcal-hashtags@rustmadrid.example
+SUMMARY:Rust Madrid — Taller de la comunidad
+DESCRIPTION:Taller práctico. Temas\: #Rust #WebAssembly y #async.\n\nMás info en https://example.org/x#seccion
+DTSTART;TZID=Europe/Madrid:20260919T190000
+DTEND;TZID=Europe/Madrid:20260919T210000
+DTSTAMP:20260710T080000Z
+LOCATION:Campus Madrid
+END:VEVENT
 END:VCALENDAR

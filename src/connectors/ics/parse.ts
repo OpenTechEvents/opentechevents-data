@@ -24,19 +24,17 @@ export interface IcsOccurrence {
   start: IcsTime;
   end?: IcsTime;
 
+  /** `CATEGORIES`, split/trimmed. Maps to OTE `tags` (v0.2). */
+  categories: string[];
+  /** `LAST-MODIFIED` — the edit instant. Maps to OTE `updatedAt` (v0.2). */
+  lastModified?: string;
   /**
-   * Facts the `.ics` states that OTE v0.1 has nowhere to put. Parsed anyway, so the
-   * pipeline can report the gap with real numbers instead of an opinion — that evidence
-   * is what a spec change should be argued from.
+   * `DTSTAMP` — the generation instant. Only a fallback for `updatedAt`, and a noisy one:
+   * it changes on every export, so the normaliser warns when it has to lean on it.
    */
-  unmappable: {
-    /** `CATEGORIES`. OTE v0.1 has no `tags`. */
-    categories: string[];
-    /** `LAST-MODIFIED`/`DTSTAMP`. OTE v0.1 has `updatedAt` on the Feed, not on the Event. */
-    lastModified?: string;
-    /** `GEO`. OTE v0.1's `location.venue` is a plain string, with no coordinates. */
-    geo?: { lat: number; lon: number };
-  };
+  dtstamp?: string;
+  /** `GEO` (`lat;lon`). Maps to OTE `location.geo` (v0.2). */
+  geo?: { lat: number; lon: number };
 }
 
 export interface ParseOptions {
@@ -87,27 +85,44 @@ function toIcsTime(time: ICAL.Time, rawTzid?: string): IcsTime {
   return icsTime;
 }
 
-function readUnmappable(vevent: ICAL.Component): IcsOccurrence['unmappable'] {
+/**
+ * Fields that OTE v0.2 added and this connector now maps: CATEGORIES → tags,
+ * LAST-MODIFIED/DTSTAMP → updatedAt, GEO → location.geo.
+ */
+function readV02Fields(
+  vevent: ICAL.Component,
+): Pick<IcsOccurrence, 'categories' | 'lastModified' | 'dtstamp' | 'geo'> {
   const categories = vevent
     .getAllProperties('categories')
     .flatMap((p) => p.getValues() as string[])
     .map((c) => String(c).trim())
     .filter(Boolean);
 
-  const lastModified =
-    (vevent.getFirstPropertyValue('last-modified') as ICAL.Time | null) ??
-    (vevent.getFirstPropertyValue('dtstamp') as ICAL.Time | null);
+  const asInstant = (name: string): string | undefined => {
+    const time = vevent.getFirstPropertyValue(name) as ICAL.Time | null;
+    return time ? time.toJSDate().toISOString() : undefined;
+  };
+  const lastModified = asInstant('last-modified');
+  const dtstamp = asInstant('dtstamp');
 
+  // `GEO:lat;lon`. ical.js exposes it as a two-element float array; fall back to splitting the
+  // raw `lat;lon` string on ';' in case a value slips through unstructured.
   const geoRaw = vevent.getFirstPropertyValue('geo') as unknown;
+  const parts = Array.isArray(geoRaw)
+    ? geoRaw
+    : typeof geoRaw === 'string'
+      ? geoRaw.split(';')
+      : [];
   let geo: { lat: number; lon: number } | undefined;
-  if (Array.isArray(geoRaw) && geoRaw.length === 2) {
-    const [lat, lon] = geoRaw.map(Number);
+  if (parts.length === 2) {
+    const [lat, lon] = parts.map(Number);
     if (Number.isFinite(lat) && Number.isFinite(lon)) geo = { lat: lat!, lon: lon! };
   }
 
   return {
     categories,
-    ...(lastModified ? { lastModified: lastModified.toJSDate().toISOString() } : {}),
+    ...(lastModified ? { lastModified } : {}),
+    ...(dtstamp ? { dtstamp } : {}),
     ...(geo ? { geo } : {}),
   };
 }
@@ -164,7 +179,7 @@ function baseOccurrence(vevent: ICAL.Component): Omit<IcsOccurrence, 'start' | '
     ...(location ? { location } : {}),
     ...(status ? { status } : {}),
     conferenceUrls: readConferenceUrls(vevent),
-    unmappable: readUnmappable(vevent),
+    ...readV02Fields(vevent),
   };
 }
 

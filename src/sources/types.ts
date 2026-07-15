@@ -45,6 +45,8 @@ export interface SourceFile {
      * is hybrid; the parser does not.
      */
     attendanceMode?: AttendanceMode;
+    /** Merged into every event's `tags` (union), on top of whatever the source data carries. */
+    tags?: string[];
   };
 }
 

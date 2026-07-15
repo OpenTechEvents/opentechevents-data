@@ -115,7 +115,7 @@ function validateAll(
     reports.get(item.sourceId)?.errors.push({
       sourceId: item.sourceId,
       code: 'schema-invalid',
-      message: `does not validate against OTE v0.1: ${result.violations
+      message: `does not validate against OTE v0.2: ${result.violations
         .map((v) => `${v.path} ${v.message}`)
         .join('; ')}`,
       eventId: item.event.id,
@@ -156,7 +156,7 @@ export async function run(options: RunOptions): Promise<RunResult> {
   const feedCheck = validateFeed(feed);
   if (!feedCheck.valid) {
     throw new Error(
-      `the rendered feed does not validate against OTE v0.1:\n${feedCheck.violations
+      `the rendered feed does not validate against OTE v0.2:\n${feedCheck.violations
         .map((v) => `  ${v.path} ${v.message}`)
         .join('\n')}`,
     );

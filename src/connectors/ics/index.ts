@@ -5,7 +5,7 @@
  * in both directions is a strong test of the model.
  */
 import type { Source } from '../../sources/types.js';
-import type { Connector, Ctx, IngestResult, Issue } from '../types.js';
+import type { Connector, Ctx, IngestResult } from '../types.js';
 import { normalizeOccurrence } from './normalize.js';
 import { parseIcs } from './parse.js';
 
@@ -42,56 +42,6 @@ function window(now: Date): { windowStart: Date; windowEnd: Date } {
   return { windowStart, windowEnd };
 }
 
-/**
- * Facts the `.ics` states that OTE v0.1 cannot express.
- *
- * These are counted, not dropped in silence. The aggregator exists partly to put pressure
- * on the spec, and "37 events across 4 sources carry CATEGORIES we cannot publish" is an
- * argument; "the spec should have tags" is an opinion.
- */
-function reportSpecGaps(source: Source, occurrences: ReturnType<typeof parseIcs>): Issue[] {
-  const gaps: Issue[] = [];
-
-  const count = (predicate: (o: (typeof occurrences)[number]) => boolean) =>
-    occurrences.filter(predicate).length;
-
-  const withCategories = count((o) => o.unmappable.categories.length > 0);
-  if (withCategories > 0) {
-    gaps.push({
-      sourceId: source.id,
-      code: 'spec-gap:tags',
-      message:
-        `${withCategories} event(s) carry CATEGORIES, but OTE v0.1 has no \`tags\` field. ` +
-        'The data was parsed and discarded.',
-    });
-  }
-
-  const withLastModified = count((o) => Boolean(o.unmappable.lastModified));
-  if (withLastModified > 0) {
-    gaps.push({
-      sourceId: source.id,
-      code: 'spec-gap:event-updatedAt',
-      message:
-        `${withLastModified} event(s) carry LAST-MODIFIED/DTSTAMP, but OTE v0.1 has ` +
-        '`updatedAt` on the Feed only, not on the Event. Consumers cannot tell which ' +
-        'events changed since they last read the feed.',
-    });
-  }
-
-  const withGeo = count((o) => Boolean(o.unmappable.geo));
-  if (withGeo > 0) {
-    gaps.push({
-      sourceId: source.id,
-      code: 'spec-gap:venue-geo',
-      message:
-        `${withGeo} event(s) carry GEO coordinates, but OTE v0.1's \`location.venue\` is a ` +
-        'plain string with no place for them.',
-    });
-  }
-
-  return gaps;
-}
-
 export const icsConnector: Connector = {
   type: 'ics',
   configSchema,
@@ -113,7 +63,7 @@ export const icsConnector: Connector = {
 
     const result: IngestResult = {
       events: [],
-      warnings: reportSpecGaps(source, occurrences),
+      warnings: [],
       errors: [],
     };
 

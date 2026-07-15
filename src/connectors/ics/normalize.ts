@@ -49,7 +49,7 @@ const isUrl = (value: string): boolean => /^https?:\/\//i.test(value.trim());
 /**
  * `STATUS` mapping.
  *
- * `TENTATIVE` is the awkward one: OTE v0.1 has no equivalent, and the aggregator design
+ * `TENTATIVE` is the awkward one: OTE v0.2 has no equivalent, and the aggregator design
  * maps it to `postponed`. Neither is right — tentative means "not confirmed yet", not
  * "was scheduled and moved" — so this is reported as a spec gap rather than settled here.
  */
@@ -80,12 +80,43 @@ function mapLocation(occurrence: IcsOccurrence): OteLocation | undefined {
   const onlineUrl =
     occurrence.conferenceUrls[0] ?? (locationIsUrl ? location : undefined);
 
+  // GEO carries no venue name of its own — the spec's `venue` is free text, `geo` is a point.
+  // Only attach coordinates when there is a location to attach them to (the schema requires a
+  // venue or an onlineUrl for `location` to exist at all).
+  const geo = occurrence.geo;
+
   if (!venue && !onlineUrl) return undefined;
 
   return {
     ...(venue ? { venue } : {}),
     ...(onlineUrl ? { onlineUrl } : {}),
+    ...(geo ? { geo } : {}),
   };
+}
+
+/** Extract `#hashtags` from free text. Requires whitespace/start before `#`, so Markdown
+ * headings and `#fragment` inside URLs are left alone. */
+const HASHTAG_RE = /(?:^|\s)#([\p{L}\p{N}_-]+)/gu;
+
+/**
+ * OTE `tags` from the iCalendar occurrence.
+ *
+ * `CATEGORIES` is the primary source (case preserved). Google Calendar emits no `CATEGORIES`,
+ * so when it is absent we fall back to `#hashtags` in the description (lowercased — a hashtag
+ * is not case-sensitive). Either way `defaults.tags` are merged in. Deduped; empty → omitted.
+ */
+function mapTags(occurrence: IcsOccurrence, source: Source, description: string | undefined): string[] | undefined {
+  let base: string[];
+  if (occurrence.categories.length > 0) {
+    base = occurrence.categories;
+  } else if (description) {
+    base = [...description.matchAll(HASHTAG_RE)].map((m) => m[1]!.toLowerCase());
+  } else {
+    base = [];
+  }
+
+  const merged = [...new Set([...base, ...(source.defaults?.tags ?? [])])];
+  return merged.length > 0 ? merged : undefined;
 }
 
 /**
@@ -192,6 +223,22 @@ export function normalizeOccurrence(
 
   const status = mapStatus(occurrence.status);
   const description = occurrence.description ? toPlainText(occurrence.description) : undefined;
+  const tags = mapTags(occurrence, source, description);
+
+  // LAST-MODIFIED is the edit instant. DTSTAMP is generation — it changes on every export, so
+  // leaning on it makes incremental sync noisy. Use it only as a fallback, and say so.
+  const updatedAt = occurrence.lastModified ?? occurrence.dtstamp;
+  if (!occurrence.lastModified && occurrence.dtstamp) {
+    warnings.push({
+      sourceId: source.id,
+      code: 'updatedAt-from-dtstamp',
+      message:
+        'VEVENT has no LAST-MODIFIED; updatedAt was taken from DTSTAMP. DTSTAMP marks ' +
+        'generation, not edit, so it may report changes that did not happen.',
+      eventId: id,
+      eventName: name,
+    });
+  }
 
   const event: OteEvent = {
     id,
@@ -204,7 +251,9 @@ export function normalizeOccurrence(
     ...(location ? { location } : {}),
     ...(attendanceMode ? { attendanceMode } : {}),
     ...(source.defaults?.languages ? { languages: source.defaults.languages } : {}),
+    ...(tags ? { tags } : {}),
     ...(status ? { status } : {}),
+    ...(updatedAt ? { updatedAt } : {}),
     // Always set for an enabled source (the gate guarantees it); a disabled source never
     // reaches normalisation, so the guard is only here to satisfy the optional type.
     ...(source.dataLicense ? { license: source.dataLicense } : {}),

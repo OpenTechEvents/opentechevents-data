@@ -108,7 +108,7 @@ describe('the ote connector', () => {
 
   it('warns when the feed declares a different spec version', async () => {
     const body = JSON.stringify({
-      specVersion: '0.2.0',
+      specVersion: '0.99.0',
       title: 'Future feed',
       license: 'CC-BY-4.0',
       updatedAt: '2026-07-01T00:00:00Z',

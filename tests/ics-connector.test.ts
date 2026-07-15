@@ -43,6 +43,9 @@ describe('the ics connector', () => {
       attendanceMode: 'in-person',
       status: 'scheduled',
       location: { venue: 'Campus Madrid, Calle Moreno Nieto 2' },
+      // CATEGORIES → tags (case preserved), LAST-MODIFIED → updatedAt.
+      tags: ['rust', 'async'],
+      updatedAt: '2026-07-01T10:00:00.000Z',
       license: 'CC-BY-4.0',
       source: {
         name: 'Rust Madrid',
@@ -105,11 +108,49 @@ describe('the ics connector', () => {
     expect(event?.status).toBe('cancelled');
   });
 
-  it('reports fields the .ics states that OTE v0.1 cannot express', async () => {
+  it('no longer reports tags/updatedAt/geo as spec gaps: v0.2 maps them', async () => {
     const result = await ingest('rust-madrid.ics');
 
-    expect(result.warnings.map((w) => w.code)).toEqual(
-      expect.arrayContaining(['spec-gap:tags', 'spec-gap:event-updatedAt']),
+    const codes = result.warnings.map((w) => w.code);
+    expect(codes).not.toContain('spec-gap:tags');
+    expect(codes).not.toContain('spec-gap:event-updatedAt');
+    expect(codes).not.toContain('spec-gap:venue-geo');
+  });
+
+  it('merges defaults.tags into the event tags, deduped', async () => {
+    const source = testSource({ defaults: { tags: ['rust', 'madrid'] } });
+    const event = byId(await ingest('rust-madrid.ics', source), 'in-person@rustmadrid.example');
+
+    // CATEGORIES [rust, async] ∪ defaults [rust, madrid] — 'rust' not doubled.
+    expect(event?.tags).toEqual(['rust', 'async', 'madrid']);
+  });
+
+  it('falls back to #hashtags in the description when there are no CATEGORIES (Google Calendar)', async () => {
+    const event = byId(await ingest('rust-madrid.ics'), 'gcal-hashtags@rustmadrid.example');
+
+    // Lowercased and deduped; the '#seccion' inside the URL is left alone (no space before '#').
+    expect(event?.tags).toEqual(['rust', 'webassembly', 'async']);
+    // The hashtags stay in the description — we read them, we do not strip them.
+    expect(event?.description).toContain('#Rust');
+  });
+
+  it('takes updatedAt from DTSTAMP when LAST-MODIFIED is absent, and warns it is noisy', async () => {
+    const result = await ingest('rust-madrid.ics');
+    const event = byId(result, 'gcal-hashtags@rustmadrid.example');
+
+    expect(event?.updatedAt).toBe('2026-07-10T08:00:00.000Z');
+    expect(result.warnings).toContainEqual(
+      expect.objectContaining({ code: 'updatedAt-from-dtstamp', eventId: event?.id }),
+    );
+  });
+
+  it('leaves updatedAt unset, without warning, when neither LAST-MODIFIED nor DTSTAMP exist', async () => {
+    const result = await ingest('rust-madrid.ics');
+    const event = byId(result, 'online@rustmadrid.example');
+
+    expect(event?.updatedAt).toBeUndefined();
+    expect(result.warnings).not.toContainEqual(
+      expect.objectContaining({ code: 'updatedAt-from-dtstamp', eventId: event?.id }),
     );
   });
 });
@@ -129,6 +170,16 @@ describe('the ics connector, on the hard cases', () => {
     const event = result.events.find((e) => e.id === edgeId('allday@example.org'));
 
     expect(event).toMatchObject({ startDate: '2026-09-18', endDate: '2026-09-20' });
+  });
+
+  it('maps GEO to location.geo as decimal-degree floats, alongside the venue', async () => {
+    const result = await ingest('edge-cases.ics', edgeSource);
+    const event = result.events.find((e) => e.id === edgeId('allday@example.org'));
+
+    expect(event?.location).toEqual({
+      venue: 'Palacio de Congresos',
+      geo: { lat: 40.4168, lon: -3.7038 },
+    });
   });
 
   it('omits endDate for a single all-day event instead of repeating the start', async () => {
