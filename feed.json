@@ -1,0 +1,515 @@
+{
+  "specVersion": "0.2.0",
+  "title": "OpenTechEvents",
+  "description": "Tech community events, aggregated and published as open data.",
+  "url": "https://opentechevents.org",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "updatedAt": "2026-07-15T10:39:34.992Z",
+  "events": [
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-07-28T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-07-28T19:00:00",
+      "endDate": "2026-07-28T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-07-31T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-07-31T10:00:00",
+      "endDate": "2026-07-31T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-08-25T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-08-25T19:00:00",
+      "endDate": "2026-08-25T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-08-28T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-08-28T10:00:00",
+      "endDate": "2026-08-28T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-09-25T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-09-25T10:00:00",
+      "endDate": "2026-09-25T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-09-29T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-09-29T19:00:00",
+      "endDate": "2026-09-29T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-10-27T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-10-27T19:00:00",
+      "endDate": "2026-10-27T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-10-30T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-10-30T10:00:00",
+      "endDate": "2026-10-30T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-11-24T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-11-24T19:00:00",
+      "endDate": "2026-11-24T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-11-27T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-11-27T10:00:00",
+      "endDate": "2026-11-27T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-12-25T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-12-25T10:00:00",
+      "endDate": "2026-12-25T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-12-29T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-12-29T19:00:00",
+      "endDate": "2026-12-29T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-01-26T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-01-26T19:00:00",
+      "endDate": "2027-01-26T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-01-29T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-01-29T10:00:00",
+      "endDate": "2027-01-29T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-02-23T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-02-23T19:00:00",
+      "endDate": "2027-02-23T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-02-26T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-02-26T10:00:00",
+      "endDate": "2027-02-26T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-03-26T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-03-26T10:00:00",
+      "endDate": "2027-03-26T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-03-30T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-03-30T19:00:00",
+      "endDate": "2027-03-30T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-04-27T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-04-27T19:00:00",
+      "endDate": "2027-04-27T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-04-30T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-04-30T10:00:00",
+      "endDate": "2027-04-30T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-05-25T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-05-25T19:00:00",
+      "endDate": "2027-05-25T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-05-28T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-05-28T10:00:00",
+      "endDate": "2027-05-28T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-06-25T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-06-25T10:00:00",
+      "endDate": "2027-06-25T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-06-29T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2027-06-29T19:00:00",
+      "endDate": "2027-06-29T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      },
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-15T10:39:34.992Z",
+  "totals": {
+    "sources": 2,
+    "sourcesFailed": 0,
+    "upcoming": 24,
+    "archived": 4,
+    "invalid": 0,
+    "duplicates": 0
+  },
+  "sources": [
+    {
+      "id": "community-builders-events",
+      "type": "ics",
+      "ok": true,
+      "events": 28,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "eventos-tech-granada",
+      "type": "ics",
+      "ok": true,
+      "events": 0,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

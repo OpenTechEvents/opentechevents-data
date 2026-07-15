@@ -1,0 +1,75 @@
+{
+  "specVersion": "0.2.0",
+  "title": "OpenTechEvents — archive 2026",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "updatedAt": "2026-07-15T10:39:34.992Z",
+  "events": [
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6goluf0qp7h5r2610bvmca1pg1%40google.com",
+      "name": "Sesión de asesoramiento sobre dudas fiscales con Hacienda",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-04-07T19:00:00",
+      "endDate": "2026-04-07T20:00:00",
+      "description": "+ info: https://github.com/ComBuildersES/punto-de-encuentro/issues/151\n\nJoin with Google Meet: https://meet.google.com/dtr-xtto-iyx\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720",
+      "location": {
+        "onlineUrl": "https://meet.google.com/dtr-xtto-iyx"
+      },
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-04-07T13:25:23.000Z",
+      "license": "CC0-1.0",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      }
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-06-26T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-06-26T10:00:00",
+      "endDate": "2026-06-26T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-22T08:42:50.000Z",
+      "license": "CC0-1.0",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      }
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-06-30T19%3A00%3A00",
+      "name": "Community Builders - Encuentro mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-06-30T19:00:00",
+      "endDate": "2026-06-30T20:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-06-29T21:06:34.000Z",
+      "license": "CC0-1.0",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      }
+    }
+  ]
+}

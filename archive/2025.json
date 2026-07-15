@@ -1,0 +1,30 @@
+{
+  "specVersion": "0.2.0",
+  "title": "OpenTechEvents — archive 2025",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "updatedAt": "2026-07-15T10:39:34.992Z",
+  "events": [
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#0lloga7dqtj0cv4jp337g9092m%40google.com",
+      "name": "Community Builders - Directorio comunidades",
+      "timezone": "Europe/Madrid",
+      "startDate": "2025-05-06T20:00:00",
+      "endDate": "2025-05-06T20:45:00",
+      "description": "Nos reuniremos las personas que estamos participando para revisar los próximos pasos del proyecto:\n\nhttps://github.com/ComBuildersES/communities-directory/issues/8#issuecomment-2849328365\n\nCualquier persona que quiera aportar o simplemente escuchar es bienvenida.\n\nReunión a través de Jitsi: https://meet.jit.si/moderated/53179a32326af70a5591260221070de3b02a3cc3f709335c69c5bde19fb8d1b3",
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2025-05-05T10:25:02.000Z",
+      "license": "CC0-1.0",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-07-15T10:39:34.992Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OpenTechEvents//OTE Aggregator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:OpenTechEvents
+X-WR-CALNAME:OpenTechEvents
+DESCRIPTION:Tech community events\, aggregated and published as open data.
+X-WR-CALDESC:Tech community events\, aggregated and published as open data.
+SOURCE;VALUE=URI:https://data.opentechevents.org/feed.ics
+X-OTE-LICENSE:CC-BY-4.0
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-07-28
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20260728T170000Z
+DTEND:20260728T180000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-07-31
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20260731T080000Z
+DTEND:20260731T090000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-08-25
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20260825T170000Z
+DTEND:20260825T180000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-08-28
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20260828T080000Z
+DTEND:20260828T090000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-09-25
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20260925T080000Z
+DTEND:20260925T090000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-09-29
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20260929T170000Z
+DTEND:20260929T180000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-10-27
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20261027T180000Z
+DTEND:20261027T190000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-10-30
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20261030T090000Z
+DTEND:20261030T100000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-11-24
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20261124T180000Z
+DTEND:20261124T190000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-11-27
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20261127T090000Z
+DTEND:20261127T100000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-12-25
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20261225T090000Z
+DTEND:20261225T100000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2026-12-29
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20261229T180000Z
+DTEND:20261229T190000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-01-26
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270126T180000Z
+DTEND:20270126T190000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-01-29
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270129T090000Z
+DTEND:20270129T100000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-02-23
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270223T180000Z
+DTEND:20270223T190000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-02-26
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270226T090000Z
+DTEND:20270226T100000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-03-26
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270326T090000Z
+DTEND:20270326T100000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-03-30
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270330T170000Z
+DTEND:20270330T180000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-04-27
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270427T170000Z
+DTEND:20270427T180000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-04-30
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270430T080000Z
+DTEND:20270430T090000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-05-25
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270525T170000Z
+DTEND:20270525T180000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-05-28
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270528T080000Z
+DTEND:20270528T090000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2027-06-25
+ T10%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270625T080000Z
+DTEND:20270625T090000Z
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260622T084250Z
+END:VEVENT
+BEGIN:VEVENT
+UID:https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e1367887
+ 8ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/bas
+ ic.ics#5veliuekc2n82bphm78psure1v_R20260630T170000%40google.com:2027-06-29
+ T19%3A00%3A00
+DTSTAMP:20260715T103934Z
+DTSTART:20270629T170000Z
+DTEND:20270629T180000Z
+SUMMARY:Community Builders - Encuentro mensual
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren em
+ pezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar
+  este rato para conectarse a una de las salas de voz de los grupos de inte
+ rés para tratar temas más concretos sobre la dinamización de comunidade
+ s.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\n
+ Se celebrará en el Discord de la comunidad.\n\nSource: Community Builders
+  Events — https://calendar.google.com/calendar/embed?src=f2f7ea80a457434
+ 8bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.
+ com
+STATUS:CONFIRMED
+LAST-MODIFIED:20260629T210634Z
+END:VEVENT
+END:VCALENDAR
