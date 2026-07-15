@@ -54,9 +54,9 @@ garantías. Cuantas más fuentes se declaran abiertas, más útil es el común p
 
 ## Para asistentes (seguir los eventos)
 
-**¿Solo quieres enterarte de los eventos tech y no perdértelos?** Suscríbete al calendario una vez y
-los eventos de todas las comunidades registradas aparecen —y se actualizan solos— en tu app de
-calendario habitual.
+**¿Solo quieres enterarte de los eventos tech y no perdértelos?** Hoy la vía más directa es suscribir
+el calendario una vez: los eventos de todas las comunidades registradas aparecen —y se actualizan
+solos— en tu app de calendario habitual.
 
 1. Copia la URL del calendario: **`https://data.opentechevents.org/feed.ics`**
 2. Añádela como calendario suscrito (no como importación puntual) en tu app:
@@ -66,6 +66,13 @@ calendario habitual.
 
 Así ves todo en un sitio, con las actualizaciones y cancelaciones que publiquen las comunidades. Si
 prefieres un lector de feeds, RSS/JSON Feed llegan en la [Fase 3](#roadmap).
+
+**Lo que viene: apps que filtran por lo que te importa.** El calendario te vuelca *todos* los eventos;
+el fin de OTE Spec es que existan herramientas que te dejen suscribirte a exactamente lo que te
+interesa —por temática, ciudad, modalidad o tipo de evento— y avisarte (email, Telegram, webhook).
+Ese ecosistema está arrancando: **de momento no hay todavía apps de terceros** que consuman el feed,
+pero las que se vayan construyendo (lectores por temática, notificaciones, widgets…) se listan en
+**[opentechevents.org/#tools](https://opentechevents.org/#tools)**. ¿Echas en falta una? Propónla ahí.
 
 > El feed se está poblando con las primeras fuentes; al principio verás pocos eventos. Cuantas más
 > comunidades se registren, más completo será — anima a las tuyas a [darse de alta](#para-organizadores-de-eventos).
@@ -128,8 +135,30 @@ no depende de las rarezas de ningún formato de calendario.
 que las URLs sobrevivan a cualquier reorganización del repo. La URL del `.ics` es para siempre — la
 gente la suscribe en su calendario y no vuelve a tocarla.
 
+**¿Hay SDKs?** Todavía no, y para leer no hacen falta: OTE es JSON plano, se consume con cualquier
+cliente HTTP y se valida con un validador de JSON Schema estándar contra
+[`@opentechevents/schema`](https://www.npmjs.com/package/@opentechevents/schema). Hay **SDKs de
+referencia** (JS/TS, Python… para leer, escribir y validar, con playground) entre las herramientas
+propuestas del ecosistema — si te haría falta una, dilo (abajo).
+
 Al usar el feed, **respeta la atribución**: es CC-BY-4.0 y cada evento indica a quién atribuir en su
 `source`.
+
+### El ecosistema está por construir — y buena parte, por reclamar
+
+OTE Spec es reciente: hoy la única pieza en marcha es este agregador. Todo lo demás está **propuesto y
+libre para que alguien lo construya** — importadores de Meetup/Luma/Sessionize/Eventbrite, extractores
+schema.org/JSON-LD, exportadores a RSS y a schema.org/Event, widgets embebibles, badges de
+suscripción, bots de notificación por temática, editores de eventos, SDKs de referencia…
+
+El catálogo completo —lo que ya existe, lo que está en marcha y lo que está *up for grabs*— vive en
+**[opentechevents.org/#tools](https://opentechevents.org/#tools)**. Explóralo:
+
+- **Construye algo del feed actual.** Cualquier consumidor (una app, un bot, una newsletter, un
+  directorio) que lea `feed.json` ya funciona hoy, sin esperar a nadie.
+- **Reclama una herramienta propuesta** para construirla, o **propón la que falte** — si te haría
+  falta un importador, un exportador o un SDK concreto, abrir un issue prioriza qué se construye por
+  demanda real.
 
 ---
 
