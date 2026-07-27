@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-26T07:29:36.701Z",
+  "generatedAt": "2026-07-27T08:20:21.965Z",
   "totals": {
     "sources": 2,
     "sourcesFailed": 0,
     "upcoming": 24,
-    "archived": 4,
+    "archived": 3,
     "invalid": 0,
     "duplicates": 0
   },
@@ -15,7 +15,7 @@
       "name": "Community Builders Events",
       "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
       "ok": true,
-      "events": 28,
+      "events": 27,
       "errors": [],
       "warnings": []
     },
