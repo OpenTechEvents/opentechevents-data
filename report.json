@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-31T07:43:46.327Z",
+  "generatedAt": "2026-08-01T07:22:14.794Z",
   "totals": {
     "sources": 2,
     "sourcesFailed": 0,
-    "upcoming": 25,
-    "archived": 3,
+    "upcoming": 24,
+    "archived": 4,
     "invalid": 0,
     "duplicates": 0
   },

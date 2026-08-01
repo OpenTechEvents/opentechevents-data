@@ -3,7 +3,7 @@
   "title": "OpenTechEvents — archive 2026",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "updatedAt": "2026-07-31T07:43:46.327Z",
+  "updatedAt": "2026-08-01T07:22:14.794Z",
   "events": [
     {
       "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6goluf0qp7h5r2610bvmca1pg1%40google.com",
@@ -90,6 +90,30 @@
         "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
         "license": "CC0-1.0",
         "retrievedAt": "2026-07-29T07:35:54.079Z"
+      }
+    },
+    {
+      "id": "https://calendar.google.com/calendar/ical/f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com/public/basic.ics#6u4uu172cj75epvudchl5vk5q1_R20260327T090000%40google.com:2026-07-31T10%3A00%3A00",
+      "name": "Community Builders - Encuentro (matutino) mensual",
+      "timezone": "Europe/Madrid",
+      "startDate": "2026-07-31T10:00:00",
+      "endDate": "2026-07-31T11:00:00",
+      "description": "Encuentro informal en el que poder dar la bienvenida a nuevas personas, conocernos, echarnos una mano (e.j. apoyar a quienes quieren empezar), y hacer comunidad (forjar amistad). Quién lo desee, podrá usar este rato para conectarse a una de las salas de voz de los grupos de interés para tratar temas más concretos sobre la dinamización de comunidades.\n\n📄 Documento colaborativo para reuniones - Community Builders\n\nSe celebrará en el Discord de la comunidad.\n\nClick the following link to join the meeting:\nhttps://meet.jit.si/ParliamentaryCommunicationsAspireSomehow\n\n=====\n\nJust want to dial in on your phone?\n\nDial-in: +1.512.647.1431 PIN: 1362051085#\n\nClick this link to see the dial in phone numbers for this meeting\nhttps://meet.jit.si/static/dialInInfo.html?room=parliamentarycommunicationsaspiresomehow",
+      "location": {
+        "onlineUrl": "https://meet.jit.si/ParliamentaryCommunicationsAspireSomehow"
+      },
+      "attendanceMode": "online",
+      "languages": [
+        "es"
+      ],
+      "status": "scheduled",
+      "updatedAt": "2026-07-30T16:37:25.000Z",
+      "license": "CC0-1.0",
+      "source": {
+        "name": "Community Builders Events",
+        "url": "https://calendar.google.com/calendar/embed?src=f2f7ea80a4574348bf203e13678878ddbf8e5677b8e04f05b28e870745aa8b12%40group.calendar.google.com",
+        "license": "CC0-1.0",
+        "retrievedAt": "2026-08-01T07:22:14.794Z"
       }
     }
   ]
