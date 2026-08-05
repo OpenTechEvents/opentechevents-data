@@ -26,662 +26,9 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250624T190000
-DTEND;TZID=Europe/Madrid:20250624T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250624T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250624T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20241126T190000
-DTEND;TZID=Europe/Madrid:20241126T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20241126T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20241126T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20251125T190000
-DTEND;TZID=Europe/Madrid:20251125T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20251125T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20251125T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260127T190000
-DTEND;TZID=Europe/Madrid:20260127T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260127T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20260127T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20251230T190000
-DTEND;TZID=Europe/Madrid:20251230T200000
-RRULE:FREQ=MONTHLY;UNTIL=20260126T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20251230T180000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250128T190000
-DTEND;TZID=Europe/Madrid:20250128T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250128T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250128T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250325T190000
-DTEND;TZID=Europe/Madrid:20250325T200000
-RRULE:FREQ=MONTHLY;UNTIL=20250428T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250325T180000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250328T100000
-DTEND;TZID=Europe/Madrid:20250328T110000
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250328T090000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250328T100000
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250527T190000
-DTEND;TZID=Europe/Madrid:20250527T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250527T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250527T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260630T190000
-DTEND;TZID=Europe/Madrid:20260630T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260630T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20260630T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250826T190000
-DTEND;TZID=Europe/Madrid:20250826T200000
-RRULE:FREQ=MONTHLY;UNTIL=20251124T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250826T170000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20240924T190000
-DTEND;TZID=Europe/Madrid:20240924T200000
-RRULE:FREQ=MONTHLY;UNTIL=20241028T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20240924T170000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250530T093000
-DTEND;TZID=Europe/Madrid:20250530T110000
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250530T080000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250530T100000
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250930T190000
-DTEND;TZID=Europe/Madrid:20250930T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250826T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250930T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20240827T190000
-DTEND;TZID=Europe/Madrid:20240827T200000
-RRULE:FREQ=MONTHLY;UNTIL=20240923T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20240827T170000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20240730T190000
-DTEND;TZID=Europe/Madrid:20240730T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20240730T170000@google.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/vtz-bpba-yre
-RECURRENCE-ID;TZID=Europe/Madrid:20240730T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal mensual.\nEl único propósito es conocernos\,
-  intentar echarnos una mano mutuamente (e.j. apoyar a quienes quieren empez
- ar)\, y hacer comunidad (forjar amistad)\n\nJoin with Google Meet: https://
- meet.google.com/vtz-bpba-yre\n\nLearn more about Meet at: https://support.g
- oogle.com/a/users/answer/9282720
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Meetup de comunidades
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250624T190000
-DTEND;TZID=Europe/Madrid:20250624T200000
-RRULE:FREQ=MONTHLY;UNTIL=20250825T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250624T170000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20241029T190000
-DTEND;TZID=Europe/Madrid:20241029T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20241029T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20241029T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250829T100000
-DTEND;TZID=Europe/Madrid:20250829T110000
-RRULE:FREQ=MONTHLY;UNTIL=20251030T225959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250829T080000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20251230T190000
-DTEND;TZID=Europe/Madrid:20251230T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20251230T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20251230T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250627T100000
-DTEND;TZID=Europe/Madrid:20250627T110000
-RRULE:FREQ=MONTHLY;UNTIL=20250828T215959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250627T080000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20251125T190000
-DTEND;TZID=Europe/Madrid:20251125T200000
-RRULE:FREQ=MONTHLY;UNTIL=20251229T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20251125T180000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260407T170000Z
-DTEND:20260407T180000Z
-DTSTAMP:20260804T072945Z
-UID:6goluf0qp7h5r2610bvmca1pg1@google.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/dtr-xtto-iyx
-CREATED:20260401T083857Z
-DESCRIPTION:+ info: <a href="https://github.com/ComBuildersES/punto-de-encu
- entro/issues/151">https://github.com/ComBuildersES/punto-de-encuentro/issue
- s/151</a>\n\nJoin with Google Meet: https://meet.google.com/dtr-xtto-iyx\n\
- nLearn more about Meet at: https://support.google.com/a/users/answer/928272
- 0
-LAST-MODIFIED:20260407T132523Z
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Sesión de asesoramiento sobre dudas fiscales con Hacienda
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260331T190000
-DTEND;TZID=Europe/Madrid:20260331T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260331T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20260331T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250425T100000
-DTEND;TZID=Europe/Madrid:20250425T110000
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250425T080000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250425T100000
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260327T100000
-DTEND;TZID=Europe/Madrid:20260327T110000
-RRULE:FREQ=MONTHLY;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20260327T090000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250530T100000
-DTEND;TZID=Europe/Madrid:20250530T110000
-RRULE:FREQ=MONTHLY;UNTIL=20250626T215959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250530T080000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250128T190000
-DTEND;TZID=Europe/Madrid:20250128T200000
-RRULE:FREQ=MONTHLY;UNTIL=20250224T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250128T180000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250228T100000
-DTEND;TZID=Europe/Madrid:20250228T110000
-RRULE:FREQ=MONTHLY;UNTIL=20250327T225959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250228T090000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250429T190000
-DTEND;TZID=Europe/Madrid:20250429T200000
-RRULE:FREQ=MONTHLY;UNTIL=20250526T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250429T170000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=Europe/Madrid:20250131T100000
 DTEND;TZID=Europe/Madrid:20250131T110000
-DTSTAMP:20260804T072945Z
+DTSTAMP:20260805T073022Z
 UID:6u4uu172cj75epvudchl5vk5q1@google.com
 RECURRENCE-ID;TZID=Europe/Madrid:20250131T100000
 CREATED:20250113T180928Z
@@ -701,11 +48,11 @@ SUMMARY:Community Builders - Encuentro (matutino) mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260130T100000
-DTEND;TZID=Europe/Madrid:20260130T110000
-RRULE:FREQ=MONTHLY;UNTIL=20260226T225959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20260130T090000@google.com
+DTSTART;TZID=Europe/Madrid:20250328T100000
+DTEND;TZID=Europe/Madrid:20250328T110000
+RRULE:FREQ=MONTHLY;UNTIL=20250424T215959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250328T090000@google.com
 CREATED:20250113T180928Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -723,28 +70,185 @@ SUMMARY:Community Builders - Encuentro (matutino) mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20240625T190000
-DTEND;TZID=Europe/Madrid:20240625T200000
-RRULE:FREQ=MONTHLY;UNTIL=20240729T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v@google.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/vtz-bpba-yre
+DTSTART;TZID=Europe/Madrid:20260630T190000
+DTEND;TZID=Europe/Madrid:20260630T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260630T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20260630T190000
 CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal mensual.\nEl único propósito es conocernos\,
-  intentar echarnos una mano mutuamente (e.j. apoyar a quienes quieren empez
- ar)\, y hacer comunidad (forjar amistad)\n\nJoin with Google Meet: https://
- meet.google.com/vtz-bpba-yre\n\nLearn more about Meet at: https://support.g
- oogle.com/a/users/answer/9282720
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
 LAST-MODIFIED:20260629T210634Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Meetup de comunidades
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250128T190000
+DTEND;TZID=Europe/Madrid:20250128T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250128T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250128T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250328T100000
+DTEND;TZID=Europe/Madrid:20250328T110000
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250328T090000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250328T100000
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20241029T190000
+DTEND;TZID=Europe/Madrid:20241029T200000
+RRULE:FREQ=MONTHLY;UNTIL=20241125T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20241029T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250530T093000
+DTEND;TZID=Europe/Madrid:20250530T110000
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250530T080000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250530T100000
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250225T190000
+DTEND;TZID=Europe/Madrid:20250225T200000
+RRULE:FREQ=MONTHLY;UNTIL=20250324T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250225T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250425T100000
+DTEND;TZID=Europe/Madrid:20250425T110000
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250425T080000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250425T100000
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260224T190000
+DTEND;TZID=Europe/Madrid:20260224T200000
+RRULE:FREQ=MONTHLY;UNTIL=20260330T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260224T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Madrid:20240827T190000
 DTEND;TZID=Europe/Madrid:20240827T200000
-DTSTAMP:20260804T072945Z
+DTSTAMP:20260805T073022Z
 UID:5veliuekc2n82bphm78psure1v_R20240827T170000@google.com
 RECURRENCE-ID;TZID=Europe/Madrid:20240827T190000
 CREATED:20240610T180305Z
@@ -764,9 +268,288 @@ SUMMARY:Community Builders - Encuentro mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260224T190000
+DTEND;TZID=Europe/Madrid:20260224T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260224T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20260224T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20240730T190000
+DTEND;TZID=Europe/Madrid:20240730T200000
+RRULE:FREQ=MONTHLY;UNTIL=20240826T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20240730T170000@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/vtz-bpba-yre
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal mensual.\nEl único propósito es conocernos\,
+  intentar echarnos una mano mutuamente (e.j. apoyar a quienes quieren empez
+ ar)\, y hacer comunidad (forjar amistad)\n\nJoin with Google Meet: https://
+ meet.google.com/vtz-bpba-yre\n\nLearn more about Meet at: https://support.g
+ oogle.com/a/users/answer/9282720
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meetup de comunidades
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250530T100000
+DTEND;TZID=Europe/Madrid:20250530T110000
+RRULE:FREQ=MONTHLY;UNTIL=20250626T215959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250530T080000@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250627T100000
+DTEND;TZID=Europe/Madrid:20250627T110000
+RRULE:FREQ=MONTHLY;UNTIL=20250828T215959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250627T080000@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260526T190000
+DTEND;TZID=Europe/Madrid:20260526T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260331T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20260526T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260407T170000Z
+DTEND:20260407T180000Z
+DTSTAMP:20260805T073022Z
+UID:6goluf0qp7h5r2610bvmca1pg1@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dtr-xtto-iyx
+CREATED:20260401T083857Z
+DESCRIPTION:+ info: <a href="https://github.com/ComBuildersES/punto-de-encu
+ entro/issues/151">https://github.com/ComBuildersES/punto-de-encuentro/issue
+ s/151</a>\n\nJoin with Google Meet: https://meet.google.com/dtr-xtto-iyx\n\
+ nLearn more about Meet at: https://support.google.com/a/users/answer/928272
+ 0
+LAST-MODIFIED:20260407T132523Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sesión de asesoramiento sobre dudas fiscales con Hacienda
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250325T190000
+DTEND;TZID=Europe/Madrid:20250325T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250325T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250325T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20241126T190000
+DTEND;TZID=Europe/Madrid:20241126T200000
+RRULE:FREQ=MONTHLY;UNTIL=20241230T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20241126T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260331T190000
+DTEND;TZID=Europe/Madrid:20260331T200000
+RRULE:FREQ=MONTHLY;UNTIL=20260629T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260331T170000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250128T190000
+DTEND;TZID=Europe/Madrid:20250128T200000
+RRULE:FREQ=MONTHLY;UNTIL=20250224T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250128T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20251125T190000
+DTEND;TZID=Europe/Madrid:20251125T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20251125T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20251125T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250228T100000
+DTEND;TZID=Europe/Madrid:20250228T110000
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250228T090000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250228T100000
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260127T190000
+DTEND;TZID=Europe/Madrid:20260127T200000
+RRULE:FREQ=MONTHLY;UNTIL=20260223T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260127T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=Europe/Madrid:20260731T100000
 DTEND;TZID=Europe/Madrid:20260731T110000
-DTSTAMP:20260804T072945Z
+DTSTAMP:20260805T073022Z
 UID:6u4uu172cj75epvudchl5vk5q1_R20260327T090000@google.com
 RECURRENCE-ID;TZID=Europe/Madrid:20260731T100000
 CREATED:20250113T180928Z
@@ -792,160 +575,9 @@ SUMMARY:Community Builders - Encuentro (matutino) mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250627T100000
-DTEND;TZID=Europe/Madrid:20250627T110000
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250627T080000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250627T100000
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260127T190000
-DTEND;TZID=Europe/Madrid:20260127T200000
-RRULE:FREQ=MONTHLY;UNTIL=20260223T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260127T180000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20240730T190000
-DTEND;TZID=Europe/Madrid:20240730T200000
-RRULE:FREQ=MONTHLY;UNTIL=20240826T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20240730T170000@google.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/vtz-bpba-yre
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal mensual.\nEl único propósito es conocernos\,
-  intentar echarnos una mano mutuamente (e.j. apoyar a quienes quieren empez
- ar)\, y hacer comunidad (forjar amistad)\n\nJoin with Google Meet: https://
- meet.google.com/vtz-bpba-yre\n\nLearn more about Meet at: https://support.g
- oogle.com/a/users/answer/9282720
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Meetup de comunidades
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250228T100000
-DTEND;TZID=Europe/Madrid:20250228T110000
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250228T090000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250228T100000
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250328T100000
-DTEND;TZID=Europe/Madrid:20250328T110000
-RRULE:FREQ=MONTHLY;UNTIL=20250424T215959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250328T090000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250425T100000
-DTEND;TZID=Europe/Madrid:20250425T110000
-RRULE:FREQ=MONTHLY;UNTIL=20250529T215959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20250425T080000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260227T100000
-DTEND;TZID=Europe/Madrid:20260227T110000
-RRULE:FREQ=MONTHLY;UNTIL=20260326T225959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20260227T090000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20250506T180000Z
 DTEND:20250506T184500Z
-DTSTAMP:20260804T072945Z
+DTSTAMP:20260805T073022Z
 UID:0lloga7dqtj0cv4jp337g9092m@google.com
 CREATED:20250505T102435Z
 DESCRIPTION:Nos reuniremos las personas que estamos participando para revis
@@ -964,11 +596,11 @@ SUMMARY:Community Builders - Directorio comunidades
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250225T190000
-DTEND;TZID=Europe/Madrid:20250225T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250225T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250225T190000
+DTSTART;TZID=Europe/Madrid:20251230T190000
+DTEND;TZID=Europe/Madrid:20251230T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20251230T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20251230T190000
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -986,11 +618,11 @@ SUMMARY:Community Builders - Encuentro mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260224T190000
-DTEND;TZID=Europe/Madrid:20260224T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260224T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20260224T190000
+DTSTART;TZID=Europe/Madrid:20250826T190000
+DTEND;TZID=Europe/Madrid:20250826T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250826T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250826T190000
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -1008,11 +640,11 @@ SUMMARY:Community Builders - Encuentro mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250131T100000
-DTEND;TZID=Europe/Madrid:20250131T110000
-RRULE:FREQ=MONTHLY;UNTIL=20250227T225959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1@google.com
+DTSTART;TZID=Europe/Madrid:20260327T100000
+DTEND;TZID=Europe/Madrid:20260327T110000
+RRULE:FREQ=MONTHLY;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20260327T090000@google.com
 CREATED:20250113T180928Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -1030,11 +662,33 @@ SUMMARY:Community Builders - Encuentro (matutino) mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250527T190000
-DTEND;TZID=Europe/Madrid:20250527T200000
-RRULE:FREQ=MONTHLY;UNTIL=20250623T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250527T170000@google.com
+DTSTART;TZID=Europe/Madrid:20241126T190000
+DTEND;TZID=Europe/Madrid:20241126T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20241126T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20241126T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250826T190000
+DTEND;TZID=Europe/Madrid:20250826T200000
+RRULE:FREQ=MONTHLY;UNTIL=20251124T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250826T170000@google.com
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -1054,9 +708,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Madrid:20250325T190000
 DTEND;TZID=Europe/Madrid:20250325T200000
-DTSTAMP:20260804T072945Z
+RRULE:FREQ=MONTHLY;UNTIL=20250428T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
 UID:5veliuekc2n82bphm78psure1v_R20250325T180000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250325T190000
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -1074,69 +728,25 @@ SUMMARY:Community Builders - Encuentro mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260630T190000
-DTEND;TZID=Europe/Madrid:20260630T200000
-RRULE:FREQ=MONTHLY;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260630T170000@google.com
-CREATED:20240610T180305Z
+DTSTART;TZID=Europe/Madrid:20250829T100000
+DTEND;TZID=Europe/Madrid:20250829T110000
+RRULE:FREQ=MONTHLY;UNTIL=20251030T225959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250829T080000@google.com
+CREATED:20250113T180928Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
  ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
  e rato para conectarse a una de las salas de voz de los grupos de interés p
  ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
  >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20241126T190000
-DTEND;TZID=Europe/Madrid:20241126T200000
-RRULE:FREQ=MONTHLY;UNTIL=20241230T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20241126T180000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20241029T190000
-DTEND;TZID=Europe/Madrid:20241029T200000
-RRULE:FREQ=MONTHLY;UNTIL=20241125T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20241029T180000@google.com
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
+SUMMARY:Community Builders - Encuentro (matutino) mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -1144,7 +754,7 @@ DTSTART;TZID=Europe/Madrid:20241231T190000
 DTEND;TZID=Europe/Madrid:20241231T200000
 RRULE:FREQ=MONTHLY;UNTIL=20250127T225959Z;BYDAY=-1TU
 EXDATE;TZID=Europe/Madrid:20241231T190000
-DTSTAMP:20260804T072945Z
+DTSTAMP:20260805T073022Z
 UID:5veliuekc2n82bphm78psure1v_R20241231T180000@google.com
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
@@ -1165,7 +775,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Europe/Madrid:20250729T190000
 DTEND;TZID=Europe/Madrid:20250729T200000
-DTSTAMP:20260804T072945Z
+DTSTAMP:20260805T073022Z
 UID:5veliuekc2n82bphm78psure1v_R20250624T170000@google.com
 RECURRENCE-ID;TZID=Europe/Madrid:20250729T190000
 CREATED:20240610T180305Z
@@ -1185,99 +795,11 @@ SUMMARY:Community Builders - Encuentro mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20251226T100000
-DTEND;TZID=Europe/Madrid:20251226T110000
-RRULE:FREQ=MONTHLY;UNTIL=20260129T225959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
-UID:6u4uu172cj75epvudchl5vk5q1_R20251226T090000@google.com
-CREATED:20250113T180928Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
- 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
- ><br><br>Se celebrará en el Discord de la comunidad.
-LAST-MODIFIED:20260730T163725Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro (matutino) mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20240924T190000
-DTEND;TZID=Europe/Madrid:20240924T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20240924T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20240924T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260526T190000
-DTEND;TZID=Europe/Madrid:20260526T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260331T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20260526T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250826T190000
-DTEND;TZID=Europe/Madrid:20250826T200000
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250826T170000@google.com
-RECURRENCE-ID;TZID=Europe/Madrid:20250826T190000
-CREATED:20240610T180305Z
-DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
- ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
- ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
- e rato para conectarse a una de las salas de voz de los grupos de interés p
- ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
- >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
- 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
-  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
- ad.
-LAST-MODIFIED:20260629T210634Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Community Builders - Encuentro mensual
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260331T190000
-DTEND;TZID=Europe/Madrid:20260331T200000
-RRULE:FREQ=MONTHLY;UNTIL=20260629T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260331T170000@google.com
+DTSTART;TZID=Europe/Madrid:20250225T190000
+DTEND;TZID=Europe/Madrid:20250225T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250225T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250225T190000
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -1298,7 +820,7 @@ BEGIN:VEVENT
 DTSTART;TZID=Europe/Madrid:20251031T100000
 DTEND;TZID=Europe/Madrid:20251031T110000
 RRULE:FREQ=MONTHLY;UNTIL=20251225T225959Z;BYDAY=-1FR
-DTSTAMP:20260804T072945Z
+DTSTAMP:20260805T073022Z
 UID:6u4uu172cj75epvudchl5vk5q1_R20251031T090000@google.com
 CREATED:20250113T180928Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
@@ -1317,11 +839,77 @@ SUMMARY:Community Builders - Encuentro (matutino) mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20250225T190000
-DTEND;TZID=Europe/Madrid:20250225T200000
-RRULE:FREQ=MONTHLY;UNTIL=20250324T225959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20250225T180000@google.com
+DTSTART;TZID=Europe/Madrid:20250425T100000
+DTEND;TZID=Europe/Madrid:20250425T110000
+RRULE:FREQ=MONTHLY;UNTIL=20250529T215959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250425T080000@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260130T100000
+DTEND;TZID=Europe/Madrid:20260130T110000
+RRULE:FREQ=MONTHLY;UNTIL=20260226T225959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20260130T090000@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250228T100000
+DTEND;TZID=Europe/Madrid:20250228T110000
+RRULE:FREQ=MONTHLY;UNTIL=20250327T225959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250228T090000@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250930T190000
+DTEND;TZID=Europe/Madrid:20250930T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250826T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250930T190000
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
@@ -1339,11 +927,423 @@ SUMMARY:Community Builders - Encuentro mensual
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Madrid:20260224T190000
-DTEND;TZID=Europe/Madrid:20260224T200000
-RRULE:FREQ=MONTHLY;UNTIL=20260330T215959Z;BYDAY=-1TU
-DTSTAMP:20260804T072945Z
-UID:5veliuekc2n82bphm78psure1v_R20260224T180000@google.com
+DTSTART;TZID=Europe/Madrid:20240827T190000
+DTEND;TZID=Europe/Madrid:20240827T200000
+RRULE:FREQ=MONTHLY;UNTIL=20240923T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20240827T170000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250627T100000
+DTEND;TZID=Europe/Madrid:20250627T110000
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20250627T080000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250627T100000
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20251230T190000
+DTEND;TZID=Europe/Madrid:20251230T200000
+RRULE:FREQ=MONTHLY;UNTIL=20260126T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20251230T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260331T190000
+DTEND;TZID=Europe/Madrid:20260331T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260331T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20260331T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260630T190000
+DTEND;TZID=Europe/Madrid:20260630T200000
+RRULE:FREQ=MONTHLY;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260630T170000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20240924T190000
+DTEND;TZID=Europe/Madrid:20240924T200000
+RRULE:FREQ=MONTHLY;UNTIL=20241028T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20240924T170000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260227T100000
+DTEND;TZID=Europe/Madrid:20260227T110000
+RRULE:FREQ=MONTHLY;UNTIL=20260326T225959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20260227T090000@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250429T190000
+DTEND;TZID=Europe/Madrid:20250429T200000
+RRULE:FREQ=MONTHLY;UNTIL=20250526T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250429T170000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20241029T190000
+DTEND;TZID=Europe/Madrid:20241029T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20241029T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20241029T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250527T190000
+DTEND;TZID=Europe/Madrid:20250527T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250527T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250527T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20251125T190000
+DTEND;TZID=Europe/Madrid:20251125T200000
+RRULE:FREQ=MONTHLY;UNTIL=20251229T225959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20251125T180000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250624T190000
+DTEND;TZID=Europe/Madrid:20250624T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250624T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20250624T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20240625T190000
+DTEND;TZID=Europe/Madrid:20240625T200000
+RRULE:FREQ=MONTHLY;UNTIL=20240729T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/vtz-bpba-yre
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal mensual.\nEl único propósito es conocernos\,
+  intentar echarnos una mano mutuamente (e.j. apoyar a quienes quieren empez
+ ar)\, y hacer comunidad (forjar amistad)\n\nJoin with Google Meet: https://
+ meet.google.com/vtz-bpba-yre\n\nLearn more about Meet at: https://support.g
+ oogle.com/a/users/answer/9282720
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meetup de comunidades
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250131T100000
+DTEND;TZID=Europe/Madrid:20250131T110000
+RRULE:FREQ=MONTHLY;UNTIL=20250227T225959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20251226T100000
+DTEND;TZID=Europe/Madrid:20251226T110000
+RRULE:FREQ=MONTHLY;UNTIL=20260129T225959Z;BYDAY=-1FR
+DTSTAMP:20260805T073022Z
+UID:6u4uu172cj75epvudchl5vk5q1_R20251226T090000@google.com
+CREATED:20250113T180928Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing" target="_blank" class="pastedDriveLink-
+ 0"><u>Documento colaborativo para reuniones - Community Builders</u></a><br
+ ><br><br>Se celebrará en el Discord de la comunidad.
+LAST-MODIFIED:20260730T163725Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro (matutino) mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20240730T190000
+DTEND;TZID=Europe/Madrid:20240730T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20240730T170000@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/vtz-bpba-yre
+RECURRENCE-ID;TZID=Europe/Madrid:20240730T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal mensual.\nEl único propósito es conocernos\,
+  intentar echarnos una mano mutuamente (e.j. apoyar a quienes quieren empez
+ ar)\, y hacer comunidad (forjar amistad)\n\nJoin with Google Meet: https://
+ meet.google.com/vtz-bpba-yre\n\nLearn more about Meet at: https://support.g
+ oogle.com/a/users/answer/9282720
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meetup de comunidades
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20240924T190000
+DTEND;TZID=Europe/Madrid:20240924T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20240924T170000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20240924T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250624T190000
+DTEND;TZID=Europe/Madrid:20250624T200000
+RRULE:FREQ=MONTHLY;UNTIL=20250825T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250624T170000@google.com
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20260127T190000
+DTEND;TZID=Europe/Madrid:20260127T200000
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20260127T180000@google.com
+RECURRENCE-ID;TZID=Europe/Madrid:20260127T190000
+CREATED:20240610T180305Z
+DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
+ ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
+ ezar)\, y hacer comunidad (forjar amistad). Quién lo desee\, podrá usar est
+ e rato para conectarse a una de las salas de voz de los grupos de interés p
+ ara tratar temas más concretos sobre la dinamización de comunidades.<br><br
+ >📄 <a href="https://docs.google.com/document/d/1znPPMZa-nOxePVZTkKPsP6lsJ0
+ 5PRien8ONbi8sP5co/edit?usp=sharing">Documento colaborativo para reuniones -
+  Community Builders</a><br><br><br>Se celebrará en el Discord de la comunid
+ ad.
+LAST-MODIFIED:20260629T210634Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Community Builders - Encuentro mensual
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250527T190000
+DTEND;TZID=Europe/Madrid:20250527T200000
+RRULE:FREQ=MONTHLY;UNTIL=20250623T215959Z;BYDAY=-1TU
+DTSTAMP:20260805T073022Z
+UID:5veliuekc2n82bphm78psure1v_R20250527T170000@google.com
 CREATED:20240610T180305Z
 DESCRIPTION:Encuentro informal en el que poder dar la bienvenida a nuevas p
  ersonas\, conocernos\, echarnos una mano (e.j. apoyar a quienes quieren emp
